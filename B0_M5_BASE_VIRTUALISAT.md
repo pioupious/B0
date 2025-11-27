@@ -35,14 +35,14 @@ _La virtualisation optimise les ressources et améliore la sécurité._
   * Infrastructure as a Service (IaaS) et virtualisation réseau/stockage (SDN, SDS).
   * SDN permet une gestion centralisée et flexible du réseau, tandis que SDS gère le stockage indépendamment du matériel.
     
-# Comprendre l'Hyperviseur
+## Comprendre l'Hyperviseur
 
 _L'hyperviseur exécute les machines virtuelles et gère les ressources._
 
   * Abstraction du CPU, gestion de la mémoire virtuelle et des périphériques.
   * Allocation dynamique des resources et isolation des environnements.
 
-# Comparaison des Hyperviseurs Type 1 et Type 2
+## Comparaison des Hyperviseurs Type 1 et Type 2
 _Les hyperviseurs se divisent en deux types selon leur architecture._
 
 * Type 1 (bare metal)
@@ -57,7 +57,7 @@ _Les hyperviseurs se divisent en deux types selon leur architecture._
   * Avantages : plus simple à installer mais avec des performances inférieures.
   * Default : Performance inférieure (couches supplémentaires) , Dépend des ressources allouées par l’OS hôte
 
-# Panorama des Solutions de Virtualisation
+## Panorama des Solutions de Virtualisation
 
 Différentes solutions existent pour la virtualisation :
 
@@ -65,7 +65,7 @@ Différentes solutions existent pour la virtualisation :
    * VMware Workstation Pro : solution professionnelle, stable et performante, idéale pour les laboratoires de cybersécurité. ​
    * Hyper-V : intégré à Windows, peut entrer en conflit avec d'autres hyperviseurs.
 
-# Ressources Virtuelles
+## Ressources Virtuelles
 
 _Comprendre les ressources virtuelles est crucial pour la gestion des VMs_
 
@@ -81,7 +81,7 @@ tout ne sera pas utilisé simultanément
    * VMDK (VMware)
    * VHD/VHDX (Hyper-V)
  
- # Création d'une Machine Virtuelle
+ ## Création d'une Machine Virtuelle
 _Les formats d'image et d'exportation sont essentiels pour créer des VMs._
 
 * Image ISO : fichier pour l'installation d'un OS.
