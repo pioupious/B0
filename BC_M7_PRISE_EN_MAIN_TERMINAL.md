@@ -37,10 +37,14 @@ lien pour voir commande : https://phoenixnap.com/kb/linux-commands
 su
 ```
 
+---
+
 - **Dieu sur l'ordi**
 ```bash 
 su -
 ```
+
+---
 
 - **Indiqué ce qu'il y a dans un directory**
 ```bash 
@@ -48,41 +52,51 @@ ls
 ```
 *Option possible* : -l (liste), -/ l'interieur de l'arboressance, -a (affiche fichier caché)
 
+---
+
 - **Change directory = bouger dans l'arboressance linux**
 ```bash 
 cd
 ```
 *Option possible* :  cd .. (remonte de 1), cd ~ et cd (retourne dans home) 
 
-exemple: cd ../Téléchargement
+Exemple: cd ../Téléchargement
 cd ~
+
+---
 
 - **Affiche le chemin du directory dans lequel on est où je suis?**
 ```bash 
 pwd 
 ```
 
+---
+
 - **Permet d'avoir de l'aide**
 ```bash
 --help 
 ```
+
+---
 
 - **Le type de commande ou Fichier**
 ```bash 
 type 
 ```
 
+---
+
 - **Equivalent de help**
 ```bash 
 man 
 ```
-
+---
 
 - **Creer un folder**
 ```bash 
 mkdir 
 ```
-
+---
 
 - **Remove file**
 ```bash 
@@ -92,6 +106,8 @@ si folder
 ```bash 
 rm -R
 ```
+
+---
 
 - **Copy and paste**
 ```bash 
@@ -103,15 +119,21 @@ cp /..*  /..
 ```
 *Option possible* : -R pour tout l'arbo choisi
 
+---
+
 - **Créer folder**
 ```bash 
 touch /Téléchargement 
 ```
 
+---
+
 - **Historique de toutes les commande**
 ```bash 
 history
 ```
+
+---
 
 - **Trouver un folder**
 ```bash 
