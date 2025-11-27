@@ -80,3 +80,17 @@ tout ne sera pas utilisé simultanément
    * VDI (VirtualBox)
    * VMDK (VMware)
    * VHD/VHDX (Hyper-V)
+ 
+ # Création d'une Machine Virtuelle
+_Les formats d'image et d'exportation sont essentiels pour créer des VMs._
+
+* Image ISO : fichier pour l'installation d'un OS.
+* OVF : format standard pour décrire une VM, contenant plusieurs fichiers. ​
+* OVA : archive compressée contenant un OVF, pratique pour partager des VMs préconfigurées.
+
+## Synthèse de la mort qui tue 
+
+* Virtualisation = abstraction du matériel
+* Hyperviseurs type 1 vs type 2 → deux philosophies.
+* Ressources virtuelles (vCPU, RAM, stockage) ≠ ressources physiques.
+* Création d’une VM → comprendre ISO, OVF, OVA.
