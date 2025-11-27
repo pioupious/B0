@@ -46,13 +46,13 @@ su -
 ```bash 
 ls
 ```
-option possible : -l (liste), -/ l'interieur de l'arboressance, -a (affiche fichier caché)
+Option possible : -l (liste), -/ l'interieur de l'arboressance, -a (affiche fichier caché)
 
 - *Change directory = bouger dans l'arboressance linux*
 ```bash 
 cd
 ```
-option possible :  cd .. (remonte de 1), cd ~ et cd (retourne dans home) 
+Option possible :  cd .. (remonte de 1), cd ~ et cd (retourne dans home) 
 
 exemple: cd ../Téléchargement
 cd ~
@@ -101,7 +101,7 @@ pour contenu
 ```bash 
 cp /..*  /..
 ```
-option: -R pour tout l'arbo choisi
+Option: -R pour tout l'arbo choisi
 
 - *Créer folder*
 ```bash 
