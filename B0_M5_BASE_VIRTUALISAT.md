@@ -27,10 +27,10 @@ _La virtualisation optimise les ressources et améliore la sécurité._
 - *Flexibilité / reproductibilité*
   * Snapshot / clones → revenir en arrière instantanément
 
--*Déploiement et Cloud*
+- *Déploiement et Cloud*
 
-_Le cloud repose sur des hyperviseurs pour l'infrastructure_
+  _Le cloud repose sur des hyperviseurs pour l'infrastructure_
 
   * Les services cloud (AWS, Azure, GCP) utilisent massivement la virtualisation.
   * Infrastructure as a Service (IaaS) et virtualisation réseau/stockage (SDN, SDS).
-  *SDN permet une gestion centralisée et flexible du réseau, tandis que SDS gère le stockage indépendamment du matériel.
+  * SDN permet une gestion centralisée et flexible du réseau, tandis que SDS gère le stockage indépendamment du matériel.
