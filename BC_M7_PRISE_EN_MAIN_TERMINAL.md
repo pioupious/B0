@@ -98,6 +98,13 @@ mkdir
 ```
 ---
 
+- **Creer file**
+```bash 
+touch .../name(.txt)
+```
+
+---
+
 - **Remove file**
 ```bash 
 rm
@@ -138,4 +145,25 @@ history
 - **Trouver un folder**
 ```bash 
 find -name ...
+```
+
+---
+
+- **Afficher le contenu d'un file**
+```bash 
+cat 
+```
+
+---
+
+- **Modif un file**
+```bash 
+nano
+```
+
+---
+
+- **afficher du text dans le bash**
+```bash 
+echo je m'appel pierre
 ```
