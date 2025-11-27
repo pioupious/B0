@@ -34,3 +34,19 @@ _La virtualisation optimise les ressources et améliore la sécurité._
   * Les services cloud (AWS, Azure, GCP) utilisent massivement la virtualisation.
   * Infrastructure as a Service (IaaS) et virtualisation réseau/stockage (SDN, SDS).
   * SDN permet une gestion centralisée et flexible du réseau, tandis que SDS gère le stockage indépendamment du matériel.
+    
+# Comprendre l'Hyperviseur
+
+_L'hyperviseur exécute les machines virtuelles et gère les ressources._
+
+  * Abstraction du CPU, gestion de la mémoire virtuelle et des périphériques.
+  * Allocation dynamique des resources et isolation des environnements.
+
+# Comparaison des Hyperviseurs Type 1 et Type 2
+_Les hyperviseurs se divisent en deux types selon leur architecture._
+
+* Type 1 (bare metal)
+  s'exécute directement sur le matériel_
+  * Avantage : , offrant meilleure performance et sécurité. Egalement plus adpaté a de grandes structures (prends le pas sur l'os)
+  * Default : 
+*Type 2 (hébergé) : s'exécute sur un OS hôte, plus simple à installer mais avec des performances inférieures. 
