@@ -88,7 +88,7 @@ _Les formats d'image et d'exportation sont essentiels pour créer des VMs._
 * OVF : format standard pour décrire une VM, contenant plusieurs fichiers. ​
 * OVA : archive compressée contenant un OVF, pratique pour partager des VMs préconfigurées.
 
-## Synthèse de la mort qui tue 
+# Synthèse de la mort qui tue 
 
 * Virtualisation = abstraction du matériel
 * Hyperviseurs type 1 vs type 2 → deux philosophies.
