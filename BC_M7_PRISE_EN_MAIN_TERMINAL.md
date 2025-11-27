@@ -52,6 +52,10 @@ option possible : -l (liste), -/ l'interieur de l'arboressance, -a (affiche fich
 ```bash 
 cd
 ```
+option possible :  cd .. (remonte de 1), cd ~ et cd (retourne dans home) 
+
+exemple: cd ../Téléchargement
+cd ~
 
 - *Affiche le chemin du directory dans lequel on est où je suis?*
 ```bash 
@@ -79,7 +83,37 @@ man
 mkdir 
 ```
 
-- *Remove folder ou file*
+
+- *Remove file*
 ```bash 
 rm
+```
+si folder
+```bash 
+rm -R
+```
+
+- *copy and paste*
+```bash 
+cp /.. /..
+```
+pour contenu
+```bash 
+cp /..*  /..
+```
+option: -R pour tout l'arbo choisi
+
+- *Créer folder*
+```bash 
+touch /Téléchargement 
+```
+
+- *historique de toutes les commande*
+```bash 
+history
+```
+
+- *trouver un folder*
+```bash 
+find -name ...
 ```
