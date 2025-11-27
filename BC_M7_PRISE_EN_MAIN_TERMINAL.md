@@ -32,59 +32,59 @@ ministration (sbin).
 
 lien pour voir commande : https://phoenixnap.com/kb/linux-commands 
 
-- *Droit root mais pas dieu de l'ordi*
+- **Droit root mais pas dieu de l'ordi**
 ```bash 
 su
 ```
 
-- *Dieu sur l'ordi*
+- **Dieu sur l'ordi**
 ```bash 
 su -
 ```
 
-- *Indiqué ce qu'il y a dans un directory*
+- **Indiqué ce qu'il y a dans un directory**
 ```bash 
 ls
 ```
-Option possible : -l (liste), -/ l'interieur de l'arboressance, -a (affiche fichier caché)
+*Option possible* : -l (liste), -/ l'interieur de l'arboressance, -a (affiche fichier caché)
 
-- *Change directory = bouger dans l'arboressance linux*
+- **Change directory = bouger dans l'arboressance linux**
 ```bash 
 cd
 ```
-Option possible :  cd .. (remonte de 1), cd ~ et cd (retourne dans home) 
+*Option possible* :  cd .. (remonte de 1), cd ~ et cd (retourne dans home) 
 
 exemple: cd ../Téléchargement
 cd ~
 
-- *Affiche le chemin du directory dans lequel on est où je suis?*
+- **Affiche le chemin du directory dans lequel on est où je suis?**
 ```bash 
 pwd 
 ```
 
-- *Permet d'avoir de l'aide*
+- **Permet d'avoir de l'aide**
 ```bash
 --help 
 ```
 
-- *Le type de commande ou Fichier*
+- **Le type de commande ou Fichier**
 ```bash 
 type 
 ```
 
-- *Equivalent de help*
+- **Equivalent de help**
 ```bash 
 man 
 ```
 
 
-- *creer un folder*
+- **Creer un folder**
 ```bash 
 mkdir 
 ```
 
 
-- *Remove file*
+- **Remove file**
 ```bash 
 rm
 ```
@@ -93,7 +93,7 @@ si folder
 rm -R
 ```
 
-- *copy and paste*
+- **Copy and paste**
 ```bash 
 cp /.. /..
 ```
@@ -101,19 +101,19 @@ pour contenu
 ```bash 
 cp /..*  /..
 ```
-Option: -R pour tout l'arbo choisi
+*Option possible* : -R pour tout l'arbo choisi
 
-- *Créer folder*
+- **Créer folder**
 ```bash 
 touch /Téléchargement 
 ```
 
-- *historique de toutes les commande*
+- **Historique de toutes les commande**
 ```bash 
 history
 ```
 
-- *trouver un folder*
+- **Trouver un folder**
 ```bash 
 find -name ...
 ```
