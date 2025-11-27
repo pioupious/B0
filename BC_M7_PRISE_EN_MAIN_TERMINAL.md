@@ -167,3 +167,19 @@ nano
 ```bash 
 echo je m'appel pierre
 ```
+ou 
+```bash 
+echo "je m'appel pierre"
+```
+
+---
+
+- **transferer du texte**
+Pour transfert qui écrase
+```bash 
+>
+```
+Pour transfert qui ajoute 
+```bash 
+>>
+```
