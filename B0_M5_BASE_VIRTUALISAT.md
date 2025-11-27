@@ -46,7 +46,21 @@ _L'hyperviseur exécute les machines virtuelles et gère les ressources._
 _Les hyperviseurs se divisent en deux types selon leur architecture._
 
 * Type 1 (bare metal)
-  s'exécute directement sur le matériel_
-  * Avantage : , offrant meilleure performance et sécurité. Egalement plus adpaté a de grandes structures (prends le pas sur l'os)
-  * Default : 
-*Type 2 (hébergé) : s'exécute sur un OS hôte, plus simple à installer mais avec des performances inférieures. 
+
+  _S'exécute directement sur le matériel_
+  * Avantage : Offrant meilleure performance et sécurité. Egalement plus adpaté à de grandes structures (prends le pas sur l'os)
+  * Default : Administration plus complexe, Nécessite une machine dédiée, Pas adapté aux postes utilisateurs classiques.
+    
+* Type 2 (hébergé)
+  
+  _S'exécute sur un OS hôte_
+  * Avantages : plus simple à installer mais avec des performances inférieures.
+  * Default : Performance inférieure (couches supplémentaires) , Dépend des ressources allouées par l’OS hôte
+
+# Panorama des Solutions de Virtualisation
+
+Différentes solutions existent pour la virtualisation :
+
+   * VirtualBox : gratuit, open source, utilisé en formation, mais moins performant que VMware. ​
+   * VMware Workstation Pro : solution professionnelle, stable et performante, idéale pour les laboratoires de cybersécurité. ​
+   * Hyper-V : intégré à Windows, peut entrer en conflit avec d'autres hyperviseurs.
