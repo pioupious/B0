@@ -64,3 +64,19 @@ Différentes solutions existent pour la virtualisation :
    * VirtualBox : gratuit, open source, utilisé en formation, mais moins performant que VMware. ​
    * VMware Workstation Pro : solution professionnelle, stable et performante, idéale pour les laboratoires de cybersécurité. ​
    * Hyper-V : intégré à Windows, peut entrer en conflit avec d'autres hyperviseurs.
+
+# Ressources Virtuelles
+
+_Comprendre les ressources virtuelles est crucial pour la gestion des VMs_
+
+* vCPU : unité de scheduling, peut être surprovisionné sans danger, mais peut causer latence.
+* RAM virtuelle :
+  * ballooning : l’hyperviseur récupère ou redonne de la RAM à une VM en fonction de ses besoins réels (réallocation
+dynamique)
+  * Swapping : lorsqu’il manque de RAM, une VM déplace temporairement des données vers le disque (plus lent)
+  * Memory overcommit : on attribue plus de RAM virtuelle totale aux VM que la RAM physique disponible, en pariant que
+tout ne sera pas utilisé simultanément
+* Stockage virtuel : différents types de fichiers disques (VDI, VMDK, VHD/VHDX) et modes de provisionnement (statique vs dynamique).
+   * VDI (VirtualBox)
+   * VMDK (VMware)
+   * VHD/VHDX (Hyper-V)
