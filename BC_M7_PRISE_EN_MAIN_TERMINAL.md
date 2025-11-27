@@ -183,3 +183,8 @@ Pour transfert qui ajoute
 ```bash 
 >>
 ```
+
+- **Difference | et &&**
+  
+ **&&** permet de lancer un commande puis l'autre sans interconnection
+**|** permet de lancer les commande a la suite et chacune prend en compte la précedante 
