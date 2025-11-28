@@ -272,7 +272,7 @@ grep 'mots à trouver' ~/Téléchargements ...
 
 - **Shutdown**
   
-_La commande permet d'éteindre la machine doit venir avec des indation de temps et nécéssite une élévation root_
+_La commande permet d'éteindre la machine doit venir avec des **indation de temps** et **nécéssite une élévation root**_
   
 ```bash 
 shutdow now
