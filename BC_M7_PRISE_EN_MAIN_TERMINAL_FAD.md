@@ -106,10 +106,14 @@ touch .../name(.txt)
 ---
 
 - **Remove file**
+
+_Pour les files ou folder vide_
+
 ```bash 
 rm
 ```
-si folder
+_Si folder est plein -R(récursive)_
+
 ```bash 
 rm -R
 ```
