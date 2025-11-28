@@ -13,21 +13,21 @@ Début avec des partitions logiques sur mainframes dans les années 60-70 (IBM) 
 ## Avantages 
 _La virtualisation optimise les ressources et améliore la sécurité._
 
-- *Optimisation des ressources*
+- **Optimisation des ressources**
 
   * Un serveur physique est souvent sous-utilisé (5-15%).
   * Permet de consolider plusieurs serveurs sur un seul hôte, réduisant ainsi les coûts matériels, énergétiques et de maintenance.
 
-- *Isolation et sécurité*
+- **Isolation et sécurité**
 
   * Sandbox pour analyser des malwares.
   * Environnements sécurisés pour développeurs.
   * Environnements séparés pour différents services (ex : serveur web + base de données sans cohabitation risquée).
 
-- *Flexibilité / reproductibilité*
+- **Flexibilité / reproductibilité**
   * Snapshot / clones → revenir en arrière instantanément
 
-- *Déploiement et Cloud*
+- **Déploiement et Cloud**
 
   _Le cloud repose sur des hyperviseurs pour l'infrastructure_
 
