@@ -40,7 +40,7 @@ _Une distribution GNU/Linux regroupe un noyau et des logiciels autour d'une inte
 
 ---
 
-*Debian*
+**Debian**
 
 Avantages: Très stable, idéal pour les serveurs et environnements professionnels. ​ Versions LTS disponibles. Grande fiabilité.
 
@@ -48,7 +48,7 @@ Défauts: Moins de mises à jour fréquentes, peut être moins adaptée aux déb
 
 ---
 
-*Ubuntu*
+**Ubuntu**
 
 Avantages: Basée sur Debian, mais plus accessible aux débutants. ​ Excellente compatibilité matérielle, support communautaire étendu. ​ Versions pour desktop et serveur.
 
@@ -56,7 +56,7 @@ Défauts: Moins personnalisable pour les utilisateurs avancés.
 
 ---
 
-*CentOS (remplacé par AlmaLinux & Rocky Linux)*
+**CentOS (remplacé par AlmaLinux & Rocky Linux)**
 
 Avantages: Très stable, idéal pour les entreprises et serveurs. ​ Alternatives gratuites à RHEL (AlmaLinux et Rocky Linux). ​
 
@@ -64,7 +64,7 @@ Défauts: CentOS Stream est moins stable que l'ancienne version CentOS. ​
 
 ---
 
-*Fedora*
+**Fedora**
 
 Avantages: Innovante, reçoit les dernières technologies en premier. Idéale pour les développeurs. ​
 
@@ -72,7 +72,7 @@ Défauts: Moins stable que Debian ou RHEL, car elle utilise un modèle de mise �
 
 ---
 
-*Arch Linux*
+**Arch Linux**
 
 Avantages: Minimaliste, rolling release, très personnalisable et légère. ​ Excellente documentation (Arch Wiki). ​
 
@@ -80,7 +80,7 @@ Défauts: Moins stable, nécessite des compétences avancées pour l'installatio
 
 ---
 
-*Red Hat Enterprise Linux (RHEL)*
+**Red Hat Enterprise Linux (RHEL)**
 
 Avantages: Extrêmement stable, conçu pour les entreprises et serveurs critiques. ​ Offre un support professionnel.
 
@@ -88,7 +88,7 @@ Défauts: Solution payante, moins accessible pour les particuliers.
 
 ---
 
-*FreeBSD (pas une distribution Linux, mais un système Unix) *
+**FreeBSD (pas une distribution Linux, mais un système Unix)**
 
 Avantages: Sécurisé, léger, performant sur les serveurs. Approche système modulaire.
 
