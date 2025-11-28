@@ -174,7 +174,7 @@ echo "je m'appel pierre"
 
 ---
 
-- **transferer du texte**
+- **Transfert de texte**
 Pour transfert qui écrase
 ```bash 
 >
