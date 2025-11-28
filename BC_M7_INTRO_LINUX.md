@@ -36,13 +36,14 @@ smartphones et l’IoT.
 
 # Distributions Linux
 
-Une distribution GNU/Linux regroupe un noyau et des logiciels autour d'une interface graphique. ​
-Comparaison de distributions : Debian (très stable, pour serveurs), Ubuntu (accessible aux débutants), Fedora (technologies récentes), Arch (pour utilisateurs avancés). ​
-FreeBSD est un système Unix distinct, sécurisé et performant, mais non basé sur Linux. 
+_Une distribution GNU/Linux regroupe un noyau et des logiciels autour d'une interface graphique._
+
+---
 
 *Debian*
 
 Avantages: Très stable, idéal pour les serveurs et environnements professionnels. ​ Versions LTS disponibles. Grande fiabilité.
+
 Défauts: Moins de mises à jour fréquentes, peut être moins adaptée aux débutants.
 
 ---
@@ -50,6 +51,7 @@ Défauts: Moins de mises à jour fréquentes, peut être moins adaptée aux déb
 *Ubuntu*
 
 Avantages: Basée sur Debian, mais plus accessible aux débutants. ​ Excellente compatibilité matérielle, support communautaire étendu. ​ Versions pour desktop et serveur.
+
 Défauts: Moins personnalisable pour les utilisateurs avancés.
 
 ---
@@ -57,6 +59,7 @@ Défauts: Moins personnalisable pour les utilisateurs avancés.
 *CentOS (remplacé par AlmaLinux & Rocky Linux)*
 
 Avantages: Très stable, idéal pour les entreprises et serveurs. ​ Alternatives gratuites à RHEL (AlmaLinux et Rocky Linux). ​
+
 Défauts: CentOS Stream est moins stable que l'ancienne version CentOS. ​
 
 ---
@@ -64,6 +67,7 @@ Défauts: CentOS Stream est moins stable que l'ancienne version CentOS. ​
 *Fedora*
 
 Avantages: Innovante, reçoit les dernières technologies en premier. Idéale pour les développeurs. ​
+
 Défauts: Moins stable que Debian ou RHEL, car elle utilise un modèle de mise à jour continue (rolling release partielle). ​
 
 ---
@@ -71,6 +75,7 @@ Défauts: Moins stable que Debian ou RHEL, car elle utilise un modèle de mise �
 *Arch Linux*
 
 Avantages: Minimaliste, rolling release, très personnalisable et légère. ​ Excellente documentation (Arch Wiki). ​
+
 Défauts: Moins stable, nécessite des compétences avancées pour l'installation et la configuration.
 
 ---
@@ -78,6 +83,7 @@ Défauts: Moins stable, nécessite des compétences avancées pour l'installatio
 *Red Hat Enterprise Linux (RHEL)*
 
 Avantages: Extrêmement stable, conçu pour les entreprises et serveurs critiques. ​ Offre un support professionnel.
+
 Défauts: Solution payante, moins accessible pour les particuliers.
 
 ---
@@ -85,13 +91,14 @@ Défauts: Solution payante, moins accessible pour les particuliers.
 *FreeBSD (pas une distribution Linux, mais un système Unix) *
 
 Avantages: Sécurisé, léger, performant sur les serveurs. Approche système modulaire.
+
 Défauts: Moins de support communautaire et de logiciels disponibles par rapport à Linux.
 
 ---
 
 # Résumé de la MORT 
 
-Serveur stable et fiable: Debian. ​
-Poste de travail simple et efficace: Ubuntu, Fedora. ​
-Système minimaliste pour utilisateurs avancés: Arch Linux. ​
-Infrastructure réseau ou solution sécurisée: FreeBSD
+* Serveur stable et fiable: Debian. ​
+* Poste de travail simple et efficace: Ubuntu, Fedora. ​
+* Système minimaliste pour utilisateurs avancés: Arch Linux. ​
+* Infrastructure réseau ou solution sécurisée: FreeBSD
