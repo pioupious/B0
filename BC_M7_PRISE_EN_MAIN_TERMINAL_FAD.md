@@ -48,7 +48,7 @@ su -
 
 - **Indiqué ce qu'il y a dans un directory**
 ```bash 
-ls
+ls -[option] [nom fichier]
 ```
 *Option possible* : -l ( longue liste), -/ l'interieur de l'arboressance, -a (affiche fichier caché), -r (retournerla liste), -t (tri celon la date = time) -s (tri celon taille = size)
 
