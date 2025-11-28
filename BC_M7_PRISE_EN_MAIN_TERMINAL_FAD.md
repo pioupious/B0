@@ -184,15 +184,34 @@ Pour transfert qui ajoute
 >>
 ```
 
+---
+
 - **Difference | et &&**
   
  **&&** permet de lancer un commande puis l'autre sans interconnection
 **|** permet de lancer les commande a la suite et chacune prend en compte la précedante 
 
+---
+
 - **Gestion des paquets**
 ```bash 
 aptitude
 ```
+
+---
+
+#**Gestion des droits utilisateur**
+
+_Plusieur facon de faire sont possibe_
+
+```bash 
+chmod [u(user)g(groupe)o(other)a(all)][+(add)-(remove)=(assign)][w(wright)r(read)x(excute)]  [file name ou file pass]
+```
+**exemple :** 
+```bash 
+chmod u0=
+```
+
 
 # Type de Fichiers
 
