@@ -237,10 +237,49 @@ Pour transfert qui ajoute
 ---
 
 - **Gestion des paquets**
+
+  _possible avec aptitude_
   
 ```bash 
 aptitude
 ```
+**Mais en général !**
+
+_recherche de mise à jours_
+
+```bash
+sudo apt-get update
+```
+
+_application des mises à jours_
+
+```bash 
+sudo apt-get upgrade
+```
+
+_recherche d'application tiers_
+
+```bash 
+sudo apt-cache search gimp
+```
+
+_instalation de application tiers précédement recherchée_
+
+```bash 
+sudo apt-cache install gimp
+```
+
+_Supprimer un paquet_
+
+```bash 
+sudo apt-get remove gimp
+```
+
+_Purge un paquet_
+
+```bash 
+sudo apt-get purge gimp
+'''
 
 ---
 
