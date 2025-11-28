@@ -212,7 +212,7 @@ chmod [u(user)g(groupe)o(other)a(all)][+(add)-(remove)=(assign)][w(wright)r(read
 chmod uo=wx ~/Téléchargements/test.txt
 ```
 
-Utilisateur et other on leurs droit changer en write et read sur le fichier test.txt siutué dans Télécharments
+Utilisateur et other on leurs droit changer en write et read sur le fichier test.txt situé dans Télécharments
 
 
 # Type de Fichiers
