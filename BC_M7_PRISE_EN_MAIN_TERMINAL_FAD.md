@@ -126,6 +126,22 @@ cp /..*  /..
 ```
 *Option possible* : -R pour tout l'arbo choisi
 
+```bash 
+dd if=/dev/sda of=/dev/sdb
+```
+_if = input file | of = output file_
+
+ * Elle peut être utilisée pour cloner ou supprimer (effacer) des disques ou des partitions entières.
+
+ * Elle peut être utilisée pour copier des données brutes sur des périphériques amovibles, tels que des clés USB et des CD-ROMs.
+
+ * Elle peut sauvegarder et restaurer le MBR (Master Boot Record).
+
+ * Elle peut être utilisée pour créer un fichier d'une taille spécifique, rempli de zéros binaires, qui peut ensuite être utilisé comme un fichier swap (mémoire virtuelle).   ```bash 
+             dd if=/dev/sda of=/dev/sdb bs=1M count=50
+                 ```
+   
+
 ---
 
 - **Créer folder**
