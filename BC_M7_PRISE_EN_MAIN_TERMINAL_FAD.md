@@ -276,7 +276,7 @@ _La commande permet d'éteindre la machine doit venir avec des indation de temps
   
 ```bash 
 shutdow now
-
+shutdonw 12:00
 ```
 
 
