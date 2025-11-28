@@ -209,7 +209,7 @@ chmod [u(user)g(groupe)o(other)a(all)][+(add)-(remove)=(assign)][w(wright)r(read
 ```
 **exemple :** 
 ```bash 
-chmod u0=
+chmod uo=wx ~/Téléchargements/test.txt
 ```
 
 
