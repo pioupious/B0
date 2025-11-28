@@ -283,7 +283,7 @@ _Purge un paquet = delet tout_
 
 ```bash 
 sudo apt-get purge gimp
-'''
+```
 
 ---
 
