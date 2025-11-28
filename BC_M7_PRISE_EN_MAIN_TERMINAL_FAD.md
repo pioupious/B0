@@ -290,7 +290,17 @@ iwconfig
 ifconfig
 ```
 
+_Envoyer un ping a un réseau_
 
+```bash 
+ping 8.8.8.8
+```
+_Possible de quantifier le nb de ping_
+
+```bash 
+ping -c (nombre) 8.8.8.8
+```
+**ex:** ping -c 4 8.8.8.8
 
 # **Gestion des droits utilisateur**
 
