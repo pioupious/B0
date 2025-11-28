@@ -323,6 +323,8 @@ shutdow now
 shutdonw 12:00
 ```
 
+---
+
 - **Commandes Réseau**
   
 _La commande permet d'afficher les cartes et informations réseaux_
@@ -367,6 +369,21 @@ L'option -e affichera tous les processus
 
 
 l'option -f est également utilisée car elle fournit plus de détails dans l'affichage de la commande
+
+---
+
+- **Modifier le Password**
+  
+_La commande permet de changer la mots de passe_
+  
+```bash 
+passwd
+```
+
+-S utilisateur    peux etre utiliser pour avoir des infos sur le Password sur l'utilisateur
+
+_L'utilisateur root peut modif tout les mots de passes_
+
 
 
 # **Gestion des droits utilisateur**
