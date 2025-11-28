@@ -300,8 +300,6 @@ sudo chown Root ~/Téléchargements/test.txt
 ```
 
 
-
-
 # Type de Fichiers
 
 * d ==> répertoire = Un fichier utilisé pour stocker d'autres fichiers.
@@ -311,3 +309,28 @@ sudo chown Root ~/Téléchargements/test.txt
 * p ==> tuyau (pipe) = Permet la communication entre les processus
 * b ==> fichier bloc (block file) = Utilisé pour communiquer avec le matériel
 * c ==> fichier de caractères (character file) = Utilisé pour communiquer avec le matériel
+
+# Expressions régulières
+
+. = 	Un seul caractère
+
+[ ] = N'importe quel caractère spécifié
+
+[^ ] = 	Pas le caractère spécifié
+
+' * '= Zéro ou plus du caractère précédent
+
+^ = Si premier caractère du motif, le motif doit être au début de la ligne pour correspondre, sinon cela correspond à un caractère caret ^ littéral.
+
+$ =	Si dernier caractère du motif, le motif doit être à la fin de la ligne pour correspondre, sinon cela correspond à un signe dollar $ littéral.
+
++ =	Un ou plusieurs du motif précédent
+
+{ } =	Spécifier correspondances minimum, maximum ou exactes du motif précédent
+
+? =	Le motif précédent est optionnel
+
+| = 	Alternance - un "ou" logique
+
+( ) =	Utilisé pour créer des groupes
+
