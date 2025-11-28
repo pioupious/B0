@@ -206,7 +206,7 @@ nano
 
 ---
 
-- **afficher du text dans le bash**
+- **Afficher du text dans le bash**
 ```bash 
 echo je m'appel pierre
 ```
