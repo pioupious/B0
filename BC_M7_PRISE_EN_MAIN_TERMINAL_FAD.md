@@ -318,6 +318,12 @@ ps
  * TIME : Le temps processeur utilisé par le processus. Généralement, cette information n'est pas utilisée par les utilisateurs standards.
 
  * CMD : La commande qui a lancé le processus.
+   
+
+L'option -e affichera tous les processus 
+
+
+l'option -f est également utilisée car elle fournit plus de détails dans l'affichage de la commande
 
 
 # **Gestion des droits utilisateur**
