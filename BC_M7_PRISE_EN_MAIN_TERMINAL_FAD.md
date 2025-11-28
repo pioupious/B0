@@ -128,7 +128,7 @@ cp /..*  /..
 ```
 *Option possible* : -R pour tout l'arbo choisi
 
-**alternative à mv**
+**Alternative à mv**
 
 ```bash 
 dd if=/dev/sda of=/dev/sdb
