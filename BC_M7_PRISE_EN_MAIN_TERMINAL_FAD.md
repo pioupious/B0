@@ -202,6 +202,8 @@ aptitude
 
 #**Gestion des droits utilisateur**
 
+## Les Droits
+
 _Plusieur facon de faire sont possibe_
 
 ```bash 
@@ -213,6 +215,20 @@ chmod uo=wx ~/Téléchargements/test.txt
 ```
 
 Utilisateur et other on leurs droit changer en write et read sur le fichier test.txt situé dans Télécharments
+
+## Priopriétaire et Groupe
+
+_changer le propriétaire du fichier _
+
+**nécéssite une elevation de droit**
+
+_chown = change own = changer le proprio_
+
+```bash 
+sudo chown Root ~/Téléchargements/test.txt
+```
+
+
 
 
 # Type de Fichiers
