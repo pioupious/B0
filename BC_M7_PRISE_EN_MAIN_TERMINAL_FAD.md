@@ -204,7 +204,7 @@ aptitude
 
 ## Les Droits
 
-_Plusieur facon de faire sont possibe_
+_Plusieurs façons de faire sont possibes_
 
 ```bash 
 chmod [u(user)g(groupe)o(other)a(all)][+(add)-(remove)=(assign)][w(wright)r(read)x(excute)]  [file name ou file pass]
@@ -214,7 +214,7 @@ chmod [u(user)g(groupe)o(other)a(all)][+(add)-(remove)=(assign)][w(wright)r(read
 chmod uo=wx ~/Téléchargements/test.txt
 ```
 
-Utilisateur et other on leurs droit changer en write et read sur le fichier test.txt situé dans Télécharments
+Utilisateur et other on leurs droits **changer** en **write** et **read** sur le fichier **test.txt** situé dans **Télécharments**
 
 ## Priopriétaire et Groupe
 
