@@ -50,7 +50,7 @@ su -
 ```bash 
 ls
 ```
-*Option possible* : -l (liste), -/ l'interieur de l'arboressance, -a (affiche fichier caché)
+*Option possible* : -l ( longue liste), -/ l'interieur de l'arboressance, -a (affiche fichier caché), -r (retournerla liste)
 
 ---
 
@@ -188,3 +188,15 @@ Pour transfert qui ajoute
   
  **&&** permet de lancer un commande puis l'autre sans interconnection
 **|** permet de lancer les commande a la suite et chacune prend en compte la précedante 
+
+- **Gestion des paquets**
+```bash 
+aptitude
+```
+
+# Type de Fichiers
+
+* d ==> répertoire = Un fichier utilisé pour stocker d'autres fichiers.
+* - ==> fichier = Inclut des fichiers lisibles, des fichiers images, des fichiers binaires et des fichiers compressés.
+* l ==> lein symbolique = Pointe vers un autre fichier
+* s ==> prise (socket) = Permet la communication entre les processus
