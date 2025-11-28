@@ -226,6 +226,7 @@ Pour transfert qui ajoute
 ---
 
 - **Gestion des paquets**
+  
 ```bash 
 aptitude
 ```
@@ -240,6 +241,11 @@ _Plusieurs fichiers peuvent etre deplacé en même temps_
 mv test.txt test01.txt test02.txt  ~/Téléchargements 
 ```
 
+**ou**
+
+```bash 
+mv ~/Téléchargment/test.txt ~/Documents/test01.txt ~/Public/test02.txt  ~/Téléchargements 
+```
 ---
 
 
