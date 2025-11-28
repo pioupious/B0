@@ -212,11 +212,13 @@ chmod [u(user)g(groupe)o(other)a(all)][+(add)-(remove)=(assign)][w(wright)r(read
 chmod uo=wx ~/Téléchargements/test.txt
 ```
 
+Utilisateur et other on leurs droit changer en write et read sur le fichier test.txt siutué dans Télécharments
+
 
 # Type de Fichiers
 
 * d ==> répertoire = Un fichier utilisé pour stocker d'autres fichiers.
-* - ==> fichier = Inclut des fichiers lisibles, des fichiers images, des fichiers binaires et des fichiers compressés.
+* "-" ==> fichier = Inclut des fichiers lisibles, des fichiers images, des fichiers binaires et des fichiers compressés.
 * l ==> lein symbolique = Pointe vers un autre fichier
 * s ==> prise (socket) = Permet la communication entre les processus
 * p ==> tuyau (pipe) = Permet la communication entre les processus
