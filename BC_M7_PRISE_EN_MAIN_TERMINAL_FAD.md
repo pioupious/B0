@@ -254,10 +254,23 @@ mv test.txt test01.txt test02.txt  ~/Téléchargements
 ```bash 
 mv ~/Téléchargment/test.txt ~/Documents/test01.txt ~/Public/test02.txt  ~/Téléchargements 
 ```
+
+---
+
+- **Filtrer du texte**
+
+_La commande va renvoyé la ou les lignes du fichier choisi qui contient le mots
+  
+```bash 
+grep (mots à trouver) ~/Téléchargements ...
+```
+
 ---
 
 
-#**Gestion des droits utilisateur**
+
+
+# **Gestion des droits utilisateur**
 
 ## Les Droits
 
