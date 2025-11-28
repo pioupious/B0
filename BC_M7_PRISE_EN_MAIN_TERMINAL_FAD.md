@@ -160,6 +160,9 @@ touch /Téléchargement
 ---
 
 - **Historique de toutes les commande**
+  
+_affiches toutes les commande utilisée y compris celles des précédents bash_
+
 ```bash 
 history
 ```
