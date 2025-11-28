@@ -232,6 +232,17 @@ aptitude
 
 ---
 
+- **Déplacer des FICHIERS**
+
+_Plusieurs fichiers peuvent etre deplacé en même temps_
+
+```bash 
+mv test.txt test01.txt test02.txt  ~/Téléchargements 
+```
+
+---
+
+
 #**Gestion des droits utilisateur**
 
 ## Les Droits
