@@ -200,3 +200,6 @@ aptitude
 * - ==> fichier = Inclut des fichiers lisibles, des fichiers images, des fichiers binaires et des fichiers compressés.
 * l ==> lein symbolique = Pointe vers un autre fichier
 * s ==> prise (socket) = Permet la communication entre les processus
+* p ==> tuyau (pipe) = Permet la communication entre les processus
+* b ==> fichier bloc (block file) = Utilisé pour communiquer avec le matériel
+* c ==> fichier de caractères (character file) = Utilisé pour communiquer avec le matériel
