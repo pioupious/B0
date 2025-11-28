@@ -302,6 +302,24 @@ ping -c (nombre) 8.8.8.8
 ```
 **ex:** ping -c 4 8.8.8.8
 
+---
+
+- **Affichage des processus**
+  
+_La commande permet d'afficher les processus en cours_
+  
+```bash 
+ps
+```
+ * PID : L'identifiant du processus, qui est unique au processus. Ces informations sont utiles pour contrôler le processus par son numéro d'identification.
+
+ * TTY : Le nom du terminal sur lequel le processus est en cours d'exécution. Ces informations sont utiles pour distinguer les différents processus qui portent le même nom.
+
+ * TIME : Le temps processeur utilisé par le processus. Généralement, cette information n'est pas utilisée par les utilisateurs standards.
+
+ * CMD : La commande qui a lancé le processus.
+
+
 # **Gestion des droits utilisateur**
 
 ## Les Droits
