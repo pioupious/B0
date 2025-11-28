@@ -262,7 +262,7 @@ mv ~/Téléchargment/test.txt ~/Documents/test01.txt ~/Public/test02.txt  ~/Tél
 _La commande va renvoyé la ou les lignes du fichier choisi qui contient le mots
   
 ```bash 
-grep (mots à trouver) ~/Téléchargements ...
+grep 'mots à trouver' ~/Téléchargements ...
 ```
 
 ---
@@ -312,17 +312,17 @@ sudo chown Root ~/Téléchargements/test.txt
 
 # Expressions régulières
 
-. = 	Un seul caractère
+'Tes.t' ou 'Te..t' ou encore 'T....' = 	Un seul caractère par points
 
-[ ] = N'importe quel caractère spécifié
+' ' = N'importe quel caractère spécifié
 
-[^ ] = 	Pas le caractère spécifié
+'[^test] ' = 	Pas le caractère spécifié
 
-' * '= Zéro ou plus du caractère précédent
+'te*t '= Zéro ou plus du caractère précédent
 
-^ = Si premier caractère du motif, le motif doit être au début de la ligne pour correspondre, sinon cela correspond à un caractère caret ^ littéral.
+'^test' = Si premier caractère du motif, le motif doit être au début de la ligne pour correspondre, sinon cela correspond à un caractère caret ^ littéral.
 
-$ =	Si dernier caractère du motif, le motif doit être à la fin de la ligne pour correspondre, sinon cela correspond à un signe dollar $ littéral.
+'test$' =	Si dernier caractère du motif, le motif doit être à la fin de la ligne pour correspondre, sinon cela correspond à un signe dollar $ littéral.
 
 + =	Un ou plusieurs du motif précédent
 
