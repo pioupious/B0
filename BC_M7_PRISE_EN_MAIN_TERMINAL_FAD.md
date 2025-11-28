@@ -150,8 +150,23 @@ find -name ...
 ---
 
 - **Afficher le contenu d'un file**
+- 
+_Pour afficher tout le file_
+
 ```bash 
-cat 
+cat ./Téléchagement/test.tx
+```
+
+_Pour afficher que les premières lignes_
+
+```bash 
+head ./Téléchagement/test.tx
+```
+
+_Pour afficher que les dernières lignes_
+
+```bash 
+tail ./Téléchagement/test.tx
 ```
 
 ---
@@ -218,7 +233,7 @@ Utilisateur et other on leurs droits **changer** en **write** et **read** sur le
 
 ## Priopriétaire et Groupe
 
-_changer le propriétaire du fichier _
+_Changer le propriétaire du fichier_
 
 **nécéssite une elevation de droit**
 
