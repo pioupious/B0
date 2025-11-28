@@ -262,13 +262,22 @@ mv ~/Téléchargment/test.txt ~/Documents/test01.txt ~/Public/test02.txt  ~/Tél
 
 - **Filtrer du texte**
 
-_La commande va renvoyé la ou les lignes du fichier choisi qui contient le mots
+_La commande va renvoyé la ou les lignes du fichier choisi qui contient le mots_
   
 ```bash 
 grep 'mots à trouver' ~/Téléchargements ...
 ```
 
 ---
+
+- **Shutdown**
+  
+_La commande permet d'éteindre la machine doit venir avec des indation de temps et nécéssite une élévation root_
+  
+```bash 
+shutdow now
+
+```
 
 
 
