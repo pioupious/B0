@@ -120,11 +120,15 @@ rm -R
 ```bash 
 cp /.. /..
 ```
-pour contenu
+
+Pour prendre en compte le contenu d'un folder
+
 ```bash 
 cp /..*  /..
 ```
 *Option possible* : -R pour tout l'arbo choisi
+
+**alternative à mv**
 
 ```bash 
 dd if=/dev/sda of=/dev/sdb
