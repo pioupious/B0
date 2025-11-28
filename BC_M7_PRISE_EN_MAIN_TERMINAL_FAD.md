@@ -276,9 +276,19 @@ _La commande permet d'éteindre la machine doit venir avec des **indation de tem
   
 ```bash 
 shutdow now
+
 shutdonw 12:00
 ```
 
+- **Commandes Réseau**
+  
+_La commande permet d'afficher les cartes et informations réseaux_
+  
+```bash 
+iwconfig
+
+ifconfig
+```
 
 
 
