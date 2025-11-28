@@ -218,7 +218,9 @@ echo "je m'appel pierre"
 ---
 
 - **Transfert de texte**
+- 
 Pour transfert qui écrase
+
 ```bash 
 >
 ```
@@ -237,45 +239,47 @@ Pour transfert qui ajoute
 ---
 
 - **Gestion des paquets**
+  
 
   _possible avec aptitude_
   
 ```bash 
 aptitude
 ```
+
 **Mais en général !**
 
-_recherche de mise à jours_
+_Recherche de mise à jours_
 
 ```bash
 sudo apt-get update
 ```
 
-_application des mises à jours_
+_Application des mises à jours_
 
 ```bash 
 sudo apt-get upgrade
 ```
 
-_recherche d'application tiers_
+_Recherche d'application tiers_
 
 ```bash 
 sudo apt-cache search gimp
 ```
 
-_instalation de application tiers précédement recherchée_
+_Instalation de application tiers précédement recherchée_
 
 ```bash 
 sudo apt-cache install gimp
 ```
 
-_Supprimer un paquet_
+_Supprimer un paquet = garder les fichier de configuration_
 
 ```bash 
 sudo apt-get remove gimp
 ```
 
-_Purge un paquet_
+_Purge un paquet = delet tout_
 
 ```bash 
 sudo apt-get purge gimp
