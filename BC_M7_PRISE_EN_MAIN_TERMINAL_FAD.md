@@ -391,7 +391,27 @@ passwd
 
 _L'utilisateur root peut modif tout les mots de passes_
 
+- **Téléchargements**
+  
+_La commande permet de télécharger des fichier_
+  
+```bash 
+wget (chemin)
+```
 
+- **Transfert de fichier via ssh **
+  
+_Permet de transferer des fichier de fc=acon sécurisée_
+  
+```bash 
+scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt
+```
+_Je prend le fichier important.txt et je le transfert a /ubuntu sous le nom de tranfert.txt
+
+```bash 
+scp  ubuntu@192.168.1.30:/home/ubuntu/transferred.txt important.txt
+```
+_C'est dans le sens inverse transferred.txt est transferet sur ma pasition et renomé transfert.txt_
 
 # **Gestion des droits utilisateur**
 
