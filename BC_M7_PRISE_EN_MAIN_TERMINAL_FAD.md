@@ -407,6 +407,26 @@ chmod [u(user)g(groupe)o(other)a(all)][+(add)-(remove)=(assign)][w(wright)r(read
 chmod uo=wx ~/Téléchargements/test.txt
 ```
 
+_Autre methode_
+
+1 = x ou execute
+2 = w ou Write
+4 = r ou read
+
+3 = wx
+5 = rx
+6 = rw
+7 = xwr
+
+```bash 
+chmod [1-7][1-7][1-7] [file name ou file pass]
+```
+**exemple :** 
+```bash 
+chmod 744 ~/Téléchargements/test.txt
+```
+
+
 Utilisateur et other on leurs droits **changer** en **write** et **read** sur le fichier **test.txt** situé dans **Télécharments**
 
 ## Priopriétaire et Groupe
