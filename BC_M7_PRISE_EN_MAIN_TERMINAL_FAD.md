@@ -410,12 +410,17 @@ chmod uo=wx ~/Téléchargements/test.txt
 _Autre methode_
 
 1 = x ou execute
+
 2 = w ou Write
+
 4 = r ou read
 
 3 = wx
+
 5 = rx
+
 6 = rw
+
 7 = xwr
 
 ```bash 
