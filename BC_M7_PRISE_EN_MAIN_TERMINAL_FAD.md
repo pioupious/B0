@@ -79,7 +79,14 @@ pwd
 
 ---
 
-- **Le type de commande ou Fichier**
+- **Le type Fichier**
+```bash 
+file "namefile"
+```
+
+---
+
+- **Le type de commande **
 ```bash 
 type 
 ```
