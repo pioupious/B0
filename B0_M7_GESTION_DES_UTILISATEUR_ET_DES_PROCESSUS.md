@@ -80,6 +80,8 @@ necessite d'etre sur le user ou etre root
 
 -l supprime le mots de pass = utilisateur ne paut plus se co 
 
+-S information sur le mot de passe avec -a all
+
 ---
 
 - **Information compte**
