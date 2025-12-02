@@ -399,7 +399,7 @@ _La commande permet de télécharger des fichier_
 wget (chemin)
 ```
 
-- **Transfert de fichier via ssh **
+- **Transfert de fichier via ssh**
   
 _Permet de transferer des fichier de fc=acon sécurisée_
   
