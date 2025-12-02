@@ -76,6 +76,10 @@ passwd nom
 ```
 necessite d'etre sur le user ou etre root
 
+-e invalide le mots et oblige l'utilisateur a utiliser un nouveau mdp
+
+-l supprime le mots de pass = utilisateur ne paut plus se co 
+
 ---
 
 - **Information compte**
@@ -102,7 +106,7 @@ cat /ect/group
 ```
 
 - **Delet groupe**
-- 
+  
 ```bash 
 delgroup nom
 ```
