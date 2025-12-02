@@ -417,7 +417,7 @@ ping -c (nombre) 8.8.8.8
 
 - **Affichage des processus**
   
-_La commande permet d'afficher les processus en cours dans le user_
+_La commande permet d'afficher les processus en cours dans le user au moment de la commande_
   
 ```bash 
 ps
@@ -444,6 +444,16 @@ ps aux
 
 ---
 
+- **Affichages des porcessus en live**
+  
+_La commande permet de voir les proceesus en live _
+  
+```bash 
+top
+```
+
+---- 
+
 - **Téléchargements**
   
 _La commande permet de télécharger des fichier_
@@ -451,6 +461,8 @@ _La commande permet de télécharger des fichier_
 ```bash 
 wget (chemin)
 ```
+
+---- 
 
 - **Transfert de fichier via ssh**
   
