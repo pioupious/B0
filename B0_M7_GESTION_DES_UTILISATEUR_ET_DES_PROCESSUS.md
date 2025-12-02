@@ -45,7 +45,7 @@ useradd -d /home/pioupiouLove -m -s /bin/bash -g stagiaire -G sudo -u 1002 pioup
 
 -m prendre en compte l'arbo crée 
 
--s crée un shell dans bin/bash
+-s donne accès shell dans bin/bash
 
 -g groupe stagiaire
 
@@ -54,3 +54,11 @@ useradd -d /home/pioupiouLove -m -s /bin/bash -g stagiaire -G sudo -u 1002 pioup
 -u user numero 1002 et nom piopiou2
 
 - **Delet un user**
+  
+_add un user pause pas de question mais plus compliquer_
+  
+```bash 
+userdel nom
+```
+
+**important:** -r pour delet les directory 
