@@ -53,7 +53,7 @@ type login shell (ex. lorsqu'on ouvre une session en SSH ou une console TTY). Il
  **Qu'est-ce que /etc/shadow ?**
 Ce fichier contient les mots de passe chiffrés des utilisateurs et d'autres
 informations liées à la sécurité des comptes. **Il ne peut être éditer qu’avec
-une élévation de privilège**.
+une élévation de privilège**. Necessite élévation de droit.
 
 
 
