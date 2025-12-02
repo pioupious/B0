@@ -332,21 +332,7 @@ grep 'mots à trouver' ~/Téléchargements ...
 
 ---
 
-## DROIT SUPERVISION PAQUET
-
-- **Droit root mais pas dieu de l'ordi**
-```bash 
-su
-```
-
----
-
-- **Dieu sur l'ordi**
-```bash 
-su -
-```
-
----
+## SUPERVISION PAQUET
 
 
 - **Information compte**
@@ -513,6 +499,21 @@ Pour transfert qui ajoute
 
 
 ## Les Droits
+
+- **Droit root mais pas dieu de l'ordi**
+```bash 
+su
+```
+
+---
+
+- **Dieu sur l'ordi**
+```bash 
+su -
+```
+
+---
+
 
 _Plusieurs façons de faire sont possibes_
 
