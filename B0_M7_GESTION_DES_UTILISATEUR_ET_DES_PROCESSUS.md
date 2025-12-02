@@ -53,7 +53,7 @@ useradd -d /home/pioupiouLove -m -s /bin/bash -g stagiaire -G sudo -u 1002 pioup
 
 -u user numero 1002 et nom piopiou2
 
--p mots de passe
+
 
 - **Delet un user**
   
