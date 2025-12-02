@@ -62,3 +62,51 @@ userdel nom
 ```
 
 **important:** -r pour delet les directory 
+
+---
+
+- **Changer Password**
+  
+_modifier le mots de passe _
+  
+```bash 
+passwd nom
+```
+necessite d'etre sur le user ou etre root
+
+---
+
+- **Information compte**
+  
+_permet d'avoir des info sur un compte _
+  
+```bash 
+id nom
+```
+
+---
+
+- **Céer un groupe**
+  
+_créer un groupe _
+  
+```bash 
+groupadd nom
+```
+-trouver les groupe sur /ect/group
+
+```bash 
+cat /ect/group
+```
+
+- **Delet groupe**
+
+  ```bash
+  groupdel nom
+```
+
+- **Modif User droit**
+
+  ```bash
+  usermod -g stagiaire -G sudo nomgroup
+```
