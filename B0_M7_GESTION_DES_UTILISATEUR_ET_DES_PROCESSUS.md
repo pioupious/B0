@@ -39,6 +39,7 @@ Le fichier **.bashrc** est un **script de configuration** qui est exécuté chaq
 personnaliser l'environnement du terminal, notamment en définissant des alias,
 en modifiant **l'affichage du prompt**, en exportant des **variables d'environnement**
 et en exécutant des **commandes spécifiques** à l'ouverture d'une session.
+Si on veux l'historique du bash dans /.bash_histoy ou /home/utilisateur/bash_histoy
 
 **Qu'est-ce que ~/.profile ?**
 
