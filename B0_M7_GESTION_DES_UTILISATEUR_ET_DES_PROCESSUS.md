@@ -30,6 +30,30 @@ tenter de les casser via un outil de force brute.
 Les fichiers **.bashrc, .profile** et **/etc/passwd** contiennent des configurations importantes. Un attaquant qui
 modifie ces fichiers peut **exécuter des commandes malveillantes** au démarrage d’une session.
 
+# Répertoire
+
+**Qu'est-ce que ~/.bashrc ?**
+
+Le fichier **.bashrc** est un **script de configuration** qui est exécuté chaque fois qu'un
+**terminal interactif** est lancé sous Bash (Bourne Again SHell). Il permet de
+personnaliser l'environnement du terminal, notamment en définissant des alias,
+en modifiant **l'affichage du prompt**, en exportant des **variables d'environnement**
+et en exécutant des **commandes spécifiques** à l'ouverture d'une session.
+
+**Qu'est-ce que ~/.profile ?**
+
+Le fichier **.profile** est un script de configuration exécuté lors de la connexion d'un utilisateur sur un shell de
+type login shell (ex. lorsqu'on ouvre une session en SSH ou une console TTY). Il sert principalement à :
+- Configurer l'environnement utilisateur (variables d'environnement, alias, etc.)
+- Lancer des commandes au démarrage de la session
+- Définir le chemin du shell et des fichiers de configuration
+- Personnaliser l'expérience utilisateur (prompt, historique, etc.)
+
+ **Qu'est-ce que /etc/shadow ?**
+Ce fichier contient les mots de passe chiffrés des utilisateurs et d'autres
+informations liées à la sécurité des comptes. **Il ne peut être éditer qu’avec
+une élévation de privilège**.
+
 
 
 # Commande
