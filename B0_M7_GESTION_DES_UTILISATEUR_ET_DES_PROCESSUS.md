@@ -101,6 +101,17 @@ userdel nom
 **important:** -r pour delet les directory 
 
 ---
+- **Se connecter a un user**
+  
+_permet d'agir sur le répertoire d'un user en tant que ce user_
+  
+```bash 
+su - usernom
+```
+
+
+---
+
 
 - **Changer Password**
   
