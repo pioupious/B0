@@ -568,7 +568,10 @@ sudo chown Root ~/Téléchargements/test.txt
 
 # Serveur  Web
 
-- **Droit root mais pas dieu de l'ordi**
+- **merttre en place un serveur web**
+
+_permet de créer un serveur web_
+  
 ```bash 
 python3 -m http.server
 ```
