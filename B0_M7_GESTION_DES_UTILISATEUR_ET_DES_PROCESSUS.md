@@ -36,7 +36,7 @@ adduser jesuispierre
 
 - **Add un compte user**
 
-_add un user pause pas de question mais plus compliquer_
+_Add un user pause pas de question mais plus compliquer_
   
 ```bash 
 useradd -d /home/pioupiouLove -m -s /bin/bash -g stagiaire -G sudo -u 1002 pioupiou2
@@ -52,6 +52,8 @@ useradd -d /home/pioupiouLove -m -s /bin/bash -g stagiaire -G sudo -u 1002 pioup
 -G groupe secondaire sudo 
 
 -u user numero 1002 et nom piopiou2
+
+-p mots de passe
 
 - **Delet un user**
   
