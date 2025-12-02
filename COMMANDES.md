@@ -105,19 +105,6 @@ delgroup nom
 ---
 
 
-- **Modif User Droit**
-
-  ```bash
-  usermod -a -g 1001 stagiaire -G sudo nomuser
-  ```
-
--a add des groupe sinon le  
-
--g quel groupe on veux le mettre, 1001 pas obligé mais id du groupe
-
--G quel groupe secondaire on le mets
-
-
 - **Inform de la modification d'un fichier**
   
 ```bash 
@@ -552,8 +539,7 @@ chmod 744 ~/Téléchargements/test.txt
 
 Utilisateur et other on leurs droits **changer** en **write** et **read** sur le fichier **test.txt** situé dans **Télécharments**
 
-## Priopriétaire et Groupe
-
+**Priopriétaire et Groupe**
 _Changer le propriétaire du fichier_
 
 
@@ -564,3 +550,27 @@ _chown = change own = changer le proprio_
 ```bash 
 sudo chown Root ~/Téléchargements/test.txt
 ```
+
+---
+
+- **Modif User Droit**
+
+  ```bash
+  usermod -a -g 1001 stagiaire -G sudo nomuser
+  ```
+
+-a add des groupe sinon le  
+
+-g quel groupe on veux le mettre, 1001 pas obligé mais id du groupe
+
+-G quel groupe secondaire on le mets
+
+
+# Serveur  Web
+
+- **Droit root mais pas dieu de l'ordi**
+```bash 
+python3 -m http.server
+```
+
+---
