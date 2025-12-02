@@ -104,7 +104,7 @@ userdel nom
 
 - **Changer Password**
   
-_modifier le mots de passe _
+_modifier le mots de passe_
   
 ```bash 
 passwd nom
@@ -121,7 +121,7 @@ necessite d'etre sur le user ou etre root
 
 - **Information compte**
   
-_permet d'avoir des info sur un compte _
+_permet d'avoir des info sur un compte_
   
 ```bash 
 id nom
@@ -131,7 +131,7 @@ id nom
 
 - **Céer un groupe**
   
-_créer un groupe _
+_créer un groupe_
   
 ```bash 
 groupadd nom
@@ -148,7 +148,7 @@ cat /ect/group
 delgroup nom
 ```
 
-- Penser a remove le groupe Users
+- Penser a remove le groupe Users lors de la création si adduser
 
 
 ---
