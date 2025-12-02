@@ -406,11 +406,92 @@ sudo apt-get purge gimp
 
 ---
 
+- **Shutdown**
+  
+_La commande permet d'éteindre la machine doit venir avec des **indation de temps** et **nécéssite une élévation root**_
+  
+```bash 
+shutdow now
+
+shutdonw 12:00
+```
+
+---
+
+- **Commandes Réseau**
+  
+_La commande permet d'afficher les cartes et informations réseaux_
+  
+```bash 
+iwconfig
+
+ifconfig
+```
+
+_Envoyer un ping a un réseau_
+
+```bash 
+ping 8.8.8.8
+```
+_Possible de quantifier le nb de ping_
+
+```bash 
+ping -c (nombre) 8.8.8.8
+```
+**ex:** ping -c 4 8.8.8.8
+
+---
+
+- **Affichage des processus**
+  
+_La commande permet d'afficher les processus en cours_
+  
+```bash 
+ps
+```
+ * PID : L'identifiant du processus, qui est unique au processus. Ces informations sont utiles pour contrôler le processus par son numéro d'identification.
+
+ * TTY : Le nom du terminal sur lequel le processus est en cours d'exécution. Ces informations sont utiles pour distinguer les différents processus qui portent le même nom.
+
+ * TIME : Le temps processeur utilisé par le processus. Généralement, cette information n'est pas utilisée par les utilisateurs standards.
+
+ * CMD : La commande qui a lancé le processus.
+   
+
+L'option -e affichera tous les processus 
+
+
+l'option -f est également utilisée car elle fournit plus de détails dans l'affichage de la commande
+
+---
+
+- **Téléchargements**
+  
+_La commande permet de télécharger des fichier_
+  
+```bash 
+wget (chemin)
+```
+
+- **Transfert de fichier via ssh**
+  
+_Permet de transferer des fichier de fc=acon sécurisée_
+  
+```bash 
+scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt
+```
+_Je prend le fichier important.txt et je le transfert a /ubuntu sous le nom de tranfert.txt
+
+```bash 
+scp  ubuntu@192.168.1.30:/home/ubuntu/transferred.txt important.txt
+```
+_C'est dans le sens inverse transferred.txt est transferet sur ma pasition et renomé transfert.txt_
+
 # FONTIONNEMENT
 
 
 - **Transfert de texte**
-- 
+  
 Pour transfert qui écrase
 
 ```bash 
@@ -429,3 +510,56 @@ Pour transfert qui ajoute
 **|** permet de lancer les commande a la suite et chacune prend en compte la précedante 
 
 ---
+
+
+## Les Droits
+
+_Plusieurs façons de faire sont possibes_
+
+```bash 
+chmod [u(user)g(groupe)o(other)a(all)][+(add)-(remove)=(assign)][w(wright)r(read)x(excute)]  [file name ou file pass]
+```
+**exemple :** 
+```bash 
+chmod uo=wx ~/Téléchargements/test.txt
+```
+
+_Autre methode_
+
+1 = x ou execute
+
+2 = w ou Write
+
+4 = r ou read
+
+3 = wx
+
+5 = rx
+
+6 = rw
+
+7 = xwr
+
+```bash 
+chmod [1-7][1-7][1-7] [file name ou file pass]
+```
+**exemple :** 
+```bash 
+chmod 744 ~/Téléchargements/test.txt
+```
+
+
+Utilisateur et other on leurs droits **changer** en **write** et **read** sur le fichier **test.txt** situé dans **Télécharments**
+
+## Priopriétaire et Groupe
+
+_Changer le propriétaire du fichier_
+
+
+**nécéssite une elevation de droit**
+
+_chown = change own = changer le proprio_
+
+```bash 
+sudo chown Root ~/Téléchargements/test.txt
+```
