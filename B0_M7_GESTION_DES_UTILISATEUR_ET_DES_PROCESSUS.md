@@ -39,7 +39,18 @@ adduser jesuispierre
 _add un user pause pas de question mais plus compliquer_
   
 ```bash 
-useradd -d /home/pioupiouLove -m -g stagiaire -G sudo -u 1002 pioupiou2
+useradd -d /home/pioupiouLove -m -s /bin/bash -g stagiaire -G sudo -u 1002 pioupiou2
 ```
+-d = créer un directory
+
+-m prendre en compte l'arbo crée 
+
+-s crée un shell dans bin/bash
+
+-g groupe stagiaire
+
+-G groupe secondaire sudo 
+
+-u user numero 1002 et nom piopiou2
 
 - **Delet un user**
