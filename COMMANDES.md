@@ -438,6 +438,7 @@ l'option -f est également utilisée car elle fournit plus de détails dans l'af
 
 _Pour afficher tout les processus sur tout les users_
 
+
 ```bash 
 ps aux
 ```
@@ -450,6 +451,16 @@ _La commande permet de voir les proceesus en live _
   
 ```bash 
 top
+```
+
+---- 
+
+- **Arreter un processus**
+  
+_A utiliser avec top localiser id du processus puis_
+  
+```bash 
+kill id
 ```
 
 ---- 
@@ -471,12 +482,14 @@ _Permet de transferer des fichier de fc=acon sécurisée_
 ```bash 
 scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt
 ```
-_Je prend le fichier important.txt et je le transfert a /ubuntu sous le nom de tranfert.txt
+_Je prend le fichier important.txt et je le transfert a /ubuntu sous le nom de tranferred.txt
 
 ```bash 
 scp  ubuntu@192.168.1.30:/home/ubuntu/transferred.txt important.txt
 ```
 _C'est dans le sens inverse transferred.txt est transferet sur ma pasition et renomé transfert.txt_
+
+
 
 # FONTIONNEMENT
 
@@ -593,5 +606,6 @@ _permet de créer un serveur web_
 ```bash 
 python3 -m http.server
 ```
-_Puis ctrl + C pour end le serveur"
+_Puis ctrl + C pour end le serveur_
+
 ---
