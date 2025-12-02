@@ -22,6 +22,16 @@ Un groupe d’utilisateurs :
   - est défini par un nom et un numéro de groupe (group id)
   - permet de définir des mêmes droits pour les membres du groupe
 
+
+
+Les **fichiers de configuration** des utilisateurs contiennent des informations critiques sur les utilisateurs.
+**/etc/shadow**, par exemple, **stocke les mots de passe de manière chiffrée**. Si un attaquant y accède, il peut
+tenter de les casser via un outil de force brute.
+Les fichiers **.bashrc, .profile** et **/etc/passwd** contiennent des configurations importantes. Un attaquant qui
+modifie ces fichiers peut **exécuter des commandes malveillantes** au démarrage d’une session.
+
+
+
 # Commande
 
 - **Créer un compte user**
@@ -123,10 +133,20 @@ delgroup nom
 
   ```bash
   usermod -a -g 1001 stagiaire -G sudo nomuser
-```
+  ```
 
 -a add des groupe sinon le  
 
 -g quel groupe on veux le mettre, 1001 pas obligé mais id du groupe
 
--G quel groupe secondaire on le mets 
+-G quel groupe secondaire on le mets
+
+
+- **Inform de la modification d'un fichier**
+  
+```bash 
+pwck cheminom
+```
+
+---
+
