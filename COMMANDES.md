@@ -417,7 +417,7 @@ ping -c (nombre) 8.8.8.8
 
 - **Affichage des processus**
   
-_La commande permet d'afficher les processus en cours_
+_La commande permet d'afficher les processus en cours dans le user_
   
 ```bash 
 ps
@@ -435,6 +435,12 @@ L'option -e affichera tous les processus
 
 
 l'option -f est également utilisée car elle fournit plus de détails dans l'affichage de la commande
+
+_Pour afficher tout les processus sur tout les users_
+
+```bash 
+ps aux
+```
 
 ---
 
@@ -575,5 +581,5 @@ _permet de créer un serveur web_
 ```bash 
 python3 -m http.server
 ```
-
+_Puis ctrl + C pour end le serveur"
 ---
