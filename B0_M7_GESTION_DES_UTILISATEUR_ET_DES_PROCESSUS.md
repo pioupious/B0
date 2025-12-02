@@ -116,7 +116,7 @@ delgroup nom
 - **Modif User Droit**
 
   ```bash
-  usermod -a -g 1001 stagiaire -G sudo nomgroup
+  usermod -a -g 1001 stagiaire -G sudo nomuser
 ```
 
 -a add des groupe sinon le  
