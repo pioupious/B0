@@ -100,9 +100,9 @@ cat /ect/group
 ```
 
 - **Delet groupe**
-
-  ```bash
-  groupdelnom
+- 
+```bash 
+delgroup nom
 ```
 
 - Penser a remove le groupe Users
