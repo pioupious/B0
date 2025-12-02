@@ -102,18 +102,21 @@ cat /ect/group
 - **Delet groupe**
 
   ```bash
-  groupdel
- nom
+  groupdelnom
 ```
-- penser a remove le groupe Users
+
+- Penser a remove le groupe Users
+
 
 ---
+
 
 - **Modif User Droit**
 
   ```bash
   usermod -a -g 1001 stagiaire -G sudo nomgroup
 ```
+
 -a add des groupe sinon le  
 
 -g quel groupe on veux le mettre, 1001 pas obligé mais id du groupe
