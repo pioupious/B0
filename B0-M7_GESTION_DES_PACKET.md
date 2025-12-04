@@ -32,7 +32,7 @@ apt upgrade --only-upgrade nom
 
 ## Instalasion
 
--Rechercher un logiciel(pas necessaire si on connait deja le nom)
+- Rechercher un logiciel(pas necessaire si on connait deja le nom)
 
 ```
 apt search nom
@@ -43,13 +43,38 @@ apt search nom
 ```
 apt install nom
 ```
-indtall dans /bin et peux etre lancer dirrectement en tapant son nom hors root 
+install dans /bin et peux etre lancer dirrectement en tappant son nom hors root 
 
+- Installer un .deb
+
+-dans /tmp
+```
+wget ....
+```
+_si necessaire renomer le point deb_
+
+```
+mv old.deb new.deb
+```
+
+_executer avec le droit debian pour l'instalation_
+
+```
+dpkg -i
+```
+
+_si packet manquant_
+
+```
+apt --fix-broken install
+``` 
 -affiche tout les packet sur l'ordi
 
 ```
 dpkg -l 
 ```
+
+
 
 -**mise ne place d'un lien de mise à jours (exemple google)**
 
@@ -79,6 +104,7 @@ _Puis installer google_
 ```
 apt intall google-chrome-stable
 ```
+
 
  
 ## desinstalation
