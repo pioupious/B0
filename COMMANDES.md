@@ -1,6 +1,6 @@
 # ALL COMMANDES 
 
-## GESTION UTILASATEUR
+## GESTION UTILISATEUR
 
 
 - **Créer un compte user**
@@ -459,10 +459,21 @@ top
   
 _A utiliser avec top localiser id du processus puis_
   
-```bash 
+``` 
 kill id
 ```
 
+_Proprement (fait du clean avant de fermer la tache)_
+
+
+``` 
+SIGTERM
+```
+
+_Supend un process_
+``` 
+SIGSTOP
+```
 ---- 
 
 - **Téléchargements**
