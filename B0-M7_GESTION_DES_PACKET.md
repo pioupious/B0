@@ -19,11 +19,14 @@ apt list --upgradable
 apt upgrade 
 ```
 
+---
+
 _Retrouver les liens vers les depots logiciels pour trouver les mises à jours_
 
 etc/apt/sources.list
 
 ---
+
 
 - Mise à jours ciblée
 ```
@@ -85,7 +88,7 @@ dpkg -l
 
 -**Mise ne place d'un lien de mise à jours (exemple google)**
 
-_Télécharger le clée publique dans le repertoir /etc/apt/keyring_
+_Télécharger le clée publique dans le repertoir /etc/apt/keyrings_
 
 ```
 wget https://dl.google.com/linux/linux_signing_key.pub
@@ -95,7 +98,7 @@ _Rename la clée_
 ```
 mv linux_signing_key.pub google-key.pub
 ```
-_Convertir la clée _
+_Convertir la clée_
 ```
 gpg --dearmor google-key.pub > google-key.gpg
 ```
@@ -105,6 +108,16 @@ _Dans le répertoire /etc/apt/sources.list.d/ creér file nomapp.list_
 deb [signed-by=/etc/apt/keyrings/google-key.pub.gpg] http://dl.google.com/linux/chrome/deb/ stable main
 ```
 (deb signer avec la clée trouvable ici dans hhtp)
+
+**Resume**
+```
+cd /etc/apt/keyrings
+wget https://dl.google.com/linux/linux_signing_key.pub
+mv linux_signing_key.pub google-key.pub
+gpg --dearmor google-key.pub > google-key.gpg
+echo "deb [signed-by=/etc/apt/keyrings/google-key.pub.gpg] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list
+
+```
 
 _Puis installer google_
 
