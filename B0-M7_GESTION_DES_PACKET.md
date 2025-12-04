@@ -127,7 +127,7 @@ apt intall google-chrome-stable
 
 
  
-## desinstalation
+## desinstallation
 
 ```
 apt remove nom
@@ -144,7 +144,8 @@ apt autoremove nom
 _Clean mais garde les dépendances_
 
 ## Netoyage 
-_nettoyage du cache_
+
+_Nettoyage du cache_
 ```
 apt autoclean 
 ```
@@ -167,7 +168,7 @@ _Voir info sur l'horloge_
 timedatectl timesync-status
 ```
 _Parmetrage l'horloge modifier /etc/systemd/timesyncd.conf et ajouter liens server horloge dans NTP exemple : ntp.univ-rennes2.fr
-et decomenter FallbackNTP_
+et decommenter FallbackNTP_
 
 _Activer le NTP_
 
