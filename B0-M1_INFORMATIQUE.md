@@ -81,6 +81,13 @@ information personnelles et bureautiques :
   -slide 19
 informatique professionelle
   -slide 19
+iformatique scientifique et industrielle : 
+  -slide 20
+
+**IA**
+
+Type d'IA 
+  -slide 21
 # Matériel
 
 CPU : processeur execute les instruction
