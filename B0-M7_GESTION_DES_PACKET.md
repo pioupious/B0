@@ -47,7 +47,7 @@ apt dist upgrade
 apt search nom
 ```
 
--Installer un logiciel 
+- Installer un logiciel 
 
 ```
 apt install nom
@@ -56,7 +56,7 @@ install dans /bin et peux etre lancer dirrectement en tappant son nom hors root
 
 - Installer un .deb
 
--dans /tmp
+_ans /tmp_
 ```
 wget ....
 ```
@@ -131,3 +131,13 @@ _clean mais garde les dépendances_
 apt autoremove nom
 ```
 _clean mais garde les dépendances_
+
+## Netoyage 
+_nettoyage du cache_
+```
+apt autoclean 
+```
+_suppression des paquets inutiles_
+```
+apt autoremove
+``` 
