@@ -25,9 +25,18 @@ etc/apt/sources.list
 
 ---
 
--Mise ajours ciblée
+- Mise ajours ciblée
 ```
 apt upgrade --only-upgrade nom
+```
+
+- Mis a jours distribution installée
+```
+apt full-upgrade
+```
+- Mis a niveau distribution installée
+```
+apt dist upgrade
 ```
 
 ## Instalasion
