@@ -77,6 +77,10 @@ Les machines sont capable :
  
 **Familles de l'informatique**
 
+information personnelles et bureautiques : 
+  -slide 19
+informatique professionelle
+  -slide 19
 # Matériel
 
 CPU : processeur execute les instruction
