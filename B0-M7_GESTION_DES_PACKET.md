@@ -155,4 +155,18 @@ _voir info sur l'horloge_
 ```
 timedatectl timesync-status
 ```
-_parmatrage l'horloge modifier /etc/systemd/timesyncd.conf et ajouter liens server horloge dans NTP exemple : ntp.univ-rennes2.fr_
+_parmatrage l'horloge modifier /etc/systemd/timesyncd.conf et ajouter liens server horloge dans NTP exemple : ntp.univ-rennes2.fr
+et decomenter FallbackNTP_
+
+_activer le NTP_
+
+```
+timedatectl set-ntp true
+```
+
+_puis restart  le systeme de synchro_
+
+```
+timedatectl restart synstemd-timsyncd
+```
+
