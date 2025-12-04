@@ -6,40 +6,40 @@
 apt update
 ```
 
- - afficher la liste des paquets disposant d’une mise à
+ - Afficher la liste des paquets disposant d’une mise à
 jour
  
 ```
 apt list --upgradable
 ```
 
-- installer les mise a jours
+- Installer les mises à jours
 
 ```
 apt upgrade 
 ```
 
-_Retrouver les liens vers les depots logiciels pour trouver les mises a jours_
+_Retrouver les liens vers les depots logiciels pour trouver les mises à jours_
 
 etc/apt/sources.list
 
 ---
 
-- Mise ajours ciblée
+- Mise à jours ciblée
 ```
 apt upgrade --only-upgrade nom
 ```
 
-- Mis a jours distribution installée
+- Mise à jours distribution installée
 ```
 apt full-upgrade
 ```
-- Mis a niveau distribution installée
+- Mise à niveau distribution installée
 ```
 apt dist upgrade
 ```
 
-## Instalasion
+## Installation
 
 - Rechercher un logiciel(pas necessaire si on connait deja le nom)
 
@@ -52,7 +52,7 @@ apt search nom
 ```
 apt install nom
 ```
-install dans /bin et peux etre lancer dirrectement en tappant son nom hors root 
+_install dans /bin et peux etre lancer dirrectement en tappant son nom hors root_
 
 - Installer un .deb
 
@@ -83,25 +83,23 @@ apt --fix-broken install
 dpkg -l 
 ```
 
+-**Mise ne place d'un lien de mise à jours (exemple google)**
 
-
--**mise ne place d'un lien de mise à jours (exemple google)**
-
-_télécharger le clée publique dans le repertoir /etc/apt/keyring_
+_Télécharger le clée publique dans le repertoir /etc/apt/keyring_
 
 ```
 wget https://dl.google.com/linux/linux_signing_key.pub
 ```
-_rename la clée_
+_Rename la clée_
 
 ```
 mv linux_signing_key.pub google-key.pub
 ```
-_convertir la clée _
+_Convertir la clée _
 ```
 gpg --dearmor google-key.pub > google-key.gpg
 ```
-_dans le répertoire /etc/apt/sources.list.d/ creér file nomapp.list_
+_Dans le répertoire /etc/apt/sources.list.d/ creér file nomapp.list_
 
 ```
 deb [signed-by=/etc/apt/keyrings/google-key.pub.gpg] http://dl.google.com/linux/chrome/deb/ stable main
@@ -121,56 +119,56 @@ apt intall google-chrome-stable
 ```
 apt remove nom
 ```
-_remove les packet mais garde les configs et les dependanse_
+_Remove les packet mais garde les configs et les dependanse_
 ```
 apt purge nom
 ```
-_clean mais garde les dépendances_
+_Clean mais garde les dépendances_
 
 ```
 apt autoremove nom
 ```
-_clean mais garde les dépendances_
+_Clean mais garde les dépendances_
 
 ## Netoyage 
 _nettoyage du cache_
 ```
 apt autoclean 
 ```
-_suppression des paquets inutiles_
+_Suppression des paquets inutiles_
 ```
 apt autoremove
 ```
 
 ## Horloge 
 
-_voir l'heure instant T_
+_Voir l'heure instant T_
 
 ```
 timedatectl
 ```
 
-_voir info sur l'horloge_
+_Voir info sur l'horloge_
 
 ```
 timedatectl timesync-status
 ```
-_parmatrage l'horloge modifier /etc/systemd/timesyncd.conf et ajouter liens server horloge dans NTP exemple : ntp.univ-rennes2.fr
+_Parmetrage l'horloge modifier /etc/systemd/timesyncd.conf et ajouter liens server horloge dans NTP exemple : ntp.univ-rennes2.fr
 et decomenter FallbackNTP_
 
-_activer le NTP_
+_Activer le NTP_
 
 ```
 timedatectl set-ntp true
 ```
 
-_puis restart  le systeme de synchro_
+_Puis restart  le systeme de synchro_
 
 ```
 systemctl restart systemd-timesyncd
 ```
 
-_liste des différent fuseau horraire_
+_Liste des différent fuseau horraire_
 
 ```
 timedatectl list-timezones
