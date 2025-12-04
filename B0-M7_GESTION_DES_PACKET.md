@@ -140,4 +140,19 @@ apt autoclean
 _suppression des paquets inutiles_
 ```
 apt autoremove
-``` 
+```
+
+## Horloge 
+
+_voir l'heure instant T_
+
+```
+timedatectl
+```
+
+_voir info sur l'horloge_
+
+```
+timedatectl timesync-status
+```
+_parmatrage l'horloge modifier /etc/systemd/timesyncd.conf et ajouter liens server horloge dans NTP exemple : ntp.univ-rennes2.fr_
