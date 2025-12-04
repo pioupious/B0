@@ -25,6 +25,11 @@ etc/apt/sources.list
 
 ---
 
+-Mise ajours ciblée
+```
+apt upgrade --only-upgrade nom
+```
+
 ## Instalasion
 
 -Rechercher un logiciel(pas necessaire si on connait deja le nom)
@@ -40,12 +45,36 @@ apt install nom
 ```
 indtall dans /bin et peux etre lancer dirrectement en tapant son nom hors root 
 
--affiche tout les packet 
+-affiche tout les packet sur l'ordi
 
 ```
 dpkg -l 
 ```
 
+-**instalation via console**
+
+_télécharger le clée publique dans le repertoir /usr/share/keyring_
+
+```
+wget https://dl.google.com/linux/linux_signing_key.pub
+```
+_rename la clée_
+
+```
+mv linux_signing_key.pub google-key.pub
+```
+_convertir la clée _
+```
+gpg --dearmor google-key.pub > google-key.gpg
+```
+_dans le répertoire /etc/apt/sources.list.d/ creér file nomapp.list_
+
+```
+deb [signed-by=/usr/share/keyrings/google-key.pub.gpg] http://dl.google.com/linux/chrome/deb/
+stable main
+```
+(deb signer avec la clée trouvable ici dans hhtp)
+ 
 ## desinstalation
 
 ```
