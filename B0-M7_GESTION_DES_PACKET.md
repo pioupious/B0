@@ -72,7 +72,7 @@ mv old.deb new.deb
 _executer avec le droit debian pour l'instalation_
 
 ```
-dpkg -i
+dpkg -i *.deb
 ```
 
 _si packet manquant_
@@ -80,7 +80,16 @@ _si packet manquant_
 ```
 apt --fix-broken install
 ``` 
--affiche tout les packet sur l'ordi
+- Affiche tout les packet sur l'ordi
+
+**Resume** 
+```
+cd /tmp
+wget ....
+mv *=deb new.deb
+dpkg -i *.deb
+(apt --fix-broken install)
+```
 
 ```
 dpkg -l 
