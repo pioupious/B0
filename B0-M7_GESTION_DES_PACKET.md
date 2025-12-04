@@ -53,7 +53,7 @@ dpkg -l
 
 -**mise ne place d'un lien de mise à jours (exemple google)**
 
-_télécharger le clée publique dans le repertoir /usr/share/keyring_
+_télécharger le clée publique dans le repertoir /etc/apt/keyring_
 
 ```
 wget https://dl.google.com/linux/linux_signing_key.pub
@@ -70,7 +70,7 @@ gpg --dearmor google-key.pub > google-key.gpg
 _dans le répertoire /etc/apt/sources.list.d/ creér file nomapp.list_
 
 ```
-deb [signed-by=/usr/share/keyrings/google-key.pub.gpg] http://dl.google.com/linux/chrome/deb/ stable main
+deb [signed-by=/etc/apt/keyrings/google-key.pub.gpg] http://dl.google.com/linux/chrome/deb/ stable main
 ```
 (deb signer avec la clée trouvable ici dans hhtp)
 
