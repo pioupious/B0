@@ -85,9 +85,13 @@ iformatique scientifique et industrielle :
   -slide 20
 
 **IA**
-
+Une branche de l'informatique cherchant à faire réaliser par des machines des taches nécessitant habituellement l'inteligence humaine.
 Type d'IA 
   -slide 21
+comment ca fonctionne 
+  -slide 22
+pourquoi on l'utilise
+  -sline 23
 # Matériel
 
 CPU : processeur execute les instruction
@@ -95,6 +99,6 @@ RAM : mémoire temporaire
 Stockage : disque dur/ssd
 Carte mère 
 Entrée sortie 
-(?)
+(slide?)
 
 
