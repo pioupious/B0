@@ -150,7 +150,7 @@ _Clean mais garde les dépendances_
 ```
 apt autoremove nom
 ```
-_Clean mais garde les dépendances_
+_Clean tout_
 
 ## Netoyage 
 
