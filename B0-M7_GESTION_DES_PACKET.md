@@ -167,6 +167,17 @@ timedatectl set-ntp true
 _puis restart  le systeme de synchro_
 
 ```
-timedatectl restart synstemd-timsyncd
+systemctl restart systemd-timesyncd
 ```
 
+_liste des différent fuseau horraire_
+
+```
+timedatectl list-timezones
+```
+
+_liste des différent fuseau horraire_
+
+```
+timedatectl set-timezone (zone ex:Europe/Paris) 
+```
