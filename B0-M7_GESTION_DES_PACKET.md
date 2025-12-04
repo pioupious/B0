@@ -36,7 +36,7 @@ apt full-upgrade
 ```
 - Mise à niveau distribution installée
 ```
-apt dist upgrade
+apt dist-upgrade
 ```
 
 ## Installation
