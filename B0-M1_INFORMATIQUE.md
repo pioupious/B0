@@ -32,19 +32,20 @@ une technique qui met en oeuvre
 
 **Pourquoi l'informatique**
 
-Pour permettre à des machines de :
+_Pour permettre à des machines de_ :
 - traiter des calcules complexes rapidement
 - automatiser des taches
 - stocker et rechercher des informations
 - communiquer
 
 **Généralitée sur l'informatique**
-L'information repose sur :
+
+_L'information repose sur_ :
   - la numérisation 
   - la représentation binnaire 
   - la logique booléenne (vrai / faux)
   
-Propriété d'un algorithme:
+_Propriété d'un algorithme_:
   - finit en un nombre limité d'étape
   - non ambigu
   - reproductible
@@ -52,11 +53,12 @@ Propriété d'un algorithme:
 Un programme est un algorithme traduit dans un langague compréhensible par la machine 
 ex : navigateur web, traitement de text, jeu vidéo, pilote de périphérique ...
 
-Il nécésite forcement un support physique pour fonctionner : 
+_Il nécésite forcement un support physique pour fonctionner_ : 
   - courant électrique
   - Microprocesseur (processeur, carte graphique )
   - Mémoire → zones où l’on stocke les données
-Les machines sont capable :
+  - 
+_Les machines sont capable_ :
   - de stocker
   - de traiter
   - de transmettre des données
@@ -68,15 +70,16 @@ Les machines sont capable :
  exemple: smartphone, console, voiture moderne, objet connecter ....
 
  **Fonctionnement Générale d'un ordi**
- Ordre des commandes : 
+ _Ordre des commandes_ : 
  
 - Logiciel fondamental présent dans une mémoire spéciale.
 - Allume et teste les composants.
 - Lance le système d’exploitation.
 
- Qu'est ce qu'un OS :
+_Qu'est ce qu'un OS_ :
  
 C’est l’intermédiaire entre l’utilisateur, les programmes et le matériel.
+
 Fonctions :
 • gestion du matériel
 • gestion des fichiers
@@ -95,14 +98,14 @@ Exemples : Windows, macOS, Linux, Android, iOS.
  
 **Familles de l'informatique**
 
-_information personnelles et bureautiques_ : 
+_Information personnelles et bureautiques_ : 
 - Traitement de texte
 -  Tableur
 - Iinternet
 - Applications multimédia
 
   
-_informatique professionelle_
+_Informatique professionelle_
 
  - Bases de données
 - Gestion d’entreprise
@@ -110,38 +113,49 @@ _informatique professionelle_
 Ordinateur, Enterprise Resource Planning (planification des ressources d'entreprise)
 - Cybersécurité
 
-_informatique scientifique et industrielle_ : 
-• Simulation
-• Robotique
-• Automatisation
-• Contrôle de processus
+_Informatique scientifique et industrielle_ : 
+
+- Simulation
+- Robotique
+- Automatisation
+- Contrôle de processus
 
 **IA**
 Une branche de l'informatique cherchant à faire réaliser par des machines des taches nécessitant habituellement l'inteligence humaine.
-Type d'IA 
-• Systèmes experts
-• Apprentissage automatique (machine learning)
-• Réseaux de neurones
-• IA générative (ex : ChatGPT)
+
+_Type d'IA_
+
+- Systèmes experts
+- Apprentissage automatique (machine learning)
+- Réseaux de neurones
+- IA générative (ex : ChatGPT)
 
 _Comment ca fonctionne_
-• Elle ne “comprend” pas comme un humain.
-• Elle traite des modèles statistiques entraînés sur de grandes quantités de données.
-• Elle prévoit la prochaine information la plus probable.
+
+- Elle ne “comprend” pas comme un humain.
+- Elle traite des modèles statistiques entraînés sur de grandes quantités de données.
+- Elle prévoit la prochaine information la plus probable.
 
 _Pourquoi on l'utilise_
 
-• pour analyser du texte
-• générer des réponses
-• assister dans différents domaines
+- Pour analyser du texte
+- Générer des réponses
+- Assister dans différents domaines
 
 # Matériel
 
 CPU : processeur execute les instruction
+
 RAM : mémoire temporaire
+
 Stockage : disque dur/ssd
+
 Carte mère 
-Entrée sortie 
-(slide?)
 
+Entrée sortie: clavier, souris, écran, imprimante, …
 
+Périphériques : internes / externes
+
+# L'ordinateur 
+
+...
