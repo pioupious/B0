@@ -24,9 +24,11 @@ une technique qui met en oeuvre
 
 **Histoire**
 
-Début de l'info dans les année 40 
-les année 70 on permis la mi....
-!voir slide!
+• 1940–1950 : premiers ordinateurs électroniques (ENIAC, Colossus)
+• 1950–1970 : miniaturisation, transistors → circuits intégrés
+• 1980 : micro-ordinateurs personnels (PC)
+• 2000 : internet grand public
+• 2010–2020 : explosion du mobile, cloud, IA
 
 **Pourquoi l'informatique**
 
@@ -40,7 +42,7 @@ Pour permettre à des machines de :
 L'information repose sur :
   - la numérisation 
   - la représentation binnaire 
-  - (retrouver sur la slide)
+  - la logique booléenne (vrai / faux)
   
 Propriété d'un algorithme:
   - finit en un nombre limité d'étape
@@ -53,7 +55,7 @@ ex : navigateur web, traitement de text, jeu vidéo, pilote de périphérique ..
 Il nécésite forcement un support physique pour fonctionner : 
   - courant électrique
   - Microprocesseur (processeur, carte graphique )
-  - (?)
+  - Mémoire → zones où l’on stocke les données
 Les machines sont capable :
   - de stocker
   - de traiter
@@ -67,31 +69,72 @@ Les machines sont capable :
 
  **Fonctionnement Générale d'un ordi**
  Ordre des commandes : 
- slide 15 
+ 
+- Logiciel fondamental présent dans une mémoire spéciale.
+- Allume et teste les composants.
+- Lance le système d’exploitation.
 
- qu'est ce qu'un OS :
- slide 17 
+ Qu'est ce qu'un OS :
+ 
+C’est l’intermédiaire entre l’utilisateur, les programmes et le matériel.
+Fonctions :
+• gestion du matériel
+• gestion des fichiers
+• interface utilisateur
+• sécurité
+• communication entre programmes
+
+Exemples : Windows, macOS, Linux, Android, iOS. 
  
  sans OS :
- slide 18
+ 
+- pas d’écran
+- pas de clavier
+- pas de réseau
+- pas d’applications
  
 **Familles de l'informatique**
 
-information personnelles et bureautiques : 
-  -slide 19
-informatique professionelle
-  -slide 19
-iformatique scientifique et industrielle : 
-  -slide 20
+_information personnelles et bureautiques_ : 
+- Traitement de texte
+-  Tableur
+- Iinternet
+- Applications multimédia
+
+  
+_informatique professionelle_
+
+ - Bases de données
+- Gestion d’entreprise
+- Logiciels métiers (CAO, GPAO, ERP…) → Conception Assistée par Ordinateur, Gestion de la Production Assistée par
+Ordinateur, Enterprise Resource Planning (planification des ressources d'entreprise)
+- Cybersécurité
+
+_informatique scientifique et industrielle_ : 
+• Simulation
+• Robotique
+• Automatisation
+• Contrôle de processus
 
 **IA**
 Une branche de l'informatique cherchant à faire réaliser par des machines des taches nécessitant habituellement l'inteligence humaine.
 Type d'IA 
-  -slide 21
-comment ca fonctionne 
-  -slide 22
-pourquoi on l'utilise
-  -sline 23
+• Systèmes experts
+• Apprentissage automatique (machine learning)
+• Réseaux de neurones
+• IA générative (ex : ChatGPT)
+
+_Comment ca fonctionne_
+• Elle ne “comprend” pas comme un humain.
+• Elle traite des modèles statistiques entraînés sur de grandes quantités de données.
+• Elle prévoit la prochaine information la plus probable.
+
+_Pourquoi on l'utilise_
+
+• pour analyser du texte
+• générer des réponses
+• assister dans différents domaines
+
 # Matériel
 
 CPU : processeur execute les instruction
