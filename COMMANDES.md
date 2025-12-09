@@ -577,7 +577,11 @@ chmod [1-7][1-7][1-7] [file name ou file pass]
 ```bash 
 chmod 744 ~/Téléchargements/test.txt
 ```
-
+**Changer valeur par Default des droits fichier**
+```
+umask 133
+```
+_touch créera un fichier 744 en droit_
 
 Utilisateur et other on leurs droits **changer** en **write** et **read** sur le fichier **test.txt** situé dans **Télécharments**
 
