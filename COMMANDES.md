@@ -573,6 +573,7 @@ _Autre methode_
 ```bash 
 chmod [1-7][1-7][1-7] [file name ou file pass]
 ```
+_-R change de facon recursive_ 
 **exemple :** 
 ```bash 
 chmod 744 ~/Téléchargements/test.txt
