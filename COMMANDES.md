@@ -594,7 +594,7 @@ _Changer le propriétaire du fichier_
 _chown = change own = changer le proprio_
 
 ```bash 
-sudo chown Root ~/Téléchargements/test.txt
+sudo chown [user]:[Group] ~/Téléchargements/test.txt
 ```
 
 ---
