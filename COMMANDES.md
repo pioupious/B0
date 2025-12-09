@@ -581,7 +581,7 @@ chmod 744 ~/Téléchargements/test.txt
 ```
 umask 133
 ```
-_touch créera un fichier 744 en droit_
+_touch créera un fichier 744 en droit mais retire les x par default_
 
 Utilisateur et other on leurs droits **changer** en **write** et **read** sur le fichier **test.txt** situé dans **Télécharments**
 
