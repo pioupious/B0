@@ -51,6 +51,20 @@ Comment vous utiliseriez journalctl pour diagnostiquer
 les problèmes de l’utilisateur stagiaire ?
 _journalctl -g stagiaire_
 
+Expliquez en quelques lignes comment vous utiliseriez
+systemctl et journalctl pour diagnostiquer un problème
+de démarrage d'un service spécifique (par exemple,
+Apache).
+_Verif l'état de Apache2 :
+systemctl status apache2
+Si le service est arrêté :
+systemctl start Apache2
+Verif l'état de Apache2 :
+systemctl status apache2
+Si besoin, inspecter les lod du service :
+`journalctl -xeu Apache2`
+
+
 
 
 
