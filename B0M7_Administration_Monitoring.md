@@ -29,7 +29,7 @@
 | `journalctl -f`     |Affiche les nouveaux logs en temps réel (mode "follow").                                   |
 | `journalctl -b`         |Affiche les logs depuis le dernier démarrage du système. |
 | `journalctl -g <mot-clé>`      |Recherche des logs contenant un mot-clé spécifique         |
-| `journalctl --since <date>`          | Affiche les logs depuis une date/heure spécifique (exemple : --since "2023-10-01")           |
+| `journalctl --since <date>`          | Affiche les logs depuis une date/heure spécifique (exemple : --since "2023-10-01") (exemple : --since "3 hours ago")           |
 | `journalctl --until <date>`     |Affiche les logs jusqu'à une date/heure spécifique.      | 
 | `journalctl > logs.txt`     |Exporte les logs dans un fichier texte pour analyse ultérieure      | 
 
