@@ -40,3 +40,17 @@
 | `top`         | Afficher les processus en cours en live 
 | `ps`          | Affiche les proccessus principaux en cours sur le moment donné         |
 | `ps -aux`          | Affiche tout les proccessus en cours en live sur le moment donné           |
+
+-----
+
+Quelle commande permet d'afficher tous les logs géné-
+rés depuis 3 heures du service NetworkManager ?
+_journalctl -xeu NetworkManager --since "3 hours ago"_
+
+Comment vous utiliseriez journalctl pour diagnostiquer
+les problèmes de l’utilisateur stagiaire ?
+_journalctl -g stagiaire_
+
+
+
+
