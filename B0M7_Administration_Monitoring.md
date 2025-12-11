@@ -15,7 +15,7 @@
 | `systemctl enable`     | Active le status au demarage      |
 | `systemctl disable`     | Desactive le service au demarage    |
 | `systemctl reload`     | Actualise le status     |
-|systemctl daemon-reload | relance tout les processus en cours  |
+| `systemctl daemon-reload` | relance tout les processus en cours  |
 | `df -h`     | Affiche  l'espace disque   |
 | `free`     | Affiche  l'utilisation de la RAM   |
 | `du -sh /.../`     | Affiche  l'espace d'un repertoire   |
