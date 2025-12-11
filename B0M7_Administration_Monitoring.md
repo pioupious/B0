@@ -55,14 +55,15 @@ Expliquez en quelques lignes comment vous utiliseriez
 systemctl et journalctl pour diagnostiquer un problème
 de démarrage d'un service spécifique (par exemple,
 Apache).
-_Verif l'état de Apache2 :
-systemctl status apache2
-Si le service est arrêté :
-systemctl start Apache2
-Verif l'état de Apache2 :
-systemctl status apache2
-Si besoin, inspecter les lod du service :
-`journalctl -xeu Apache2`
+
+_Verif l'état de Apache2_ :
+```systemctl status apache2```
+_Si le service est arrêté _:
+```systemctl start Apache2```
+_Verif l'état de Apache2_ :
+```systemctl status apache2```
+_Si besoin, inspecter les lod du service_ :
+```journalctl -xeu Apache2```
 
 
 
