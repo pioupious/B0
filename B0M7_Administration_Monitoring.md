@@ -17,3 +17,5 @@
 | `systemctl reload`     | Actualise le status     |
 | `df -h`     | Affiche  l'espace disque   |
 | `free`     | Affiche  l'utilisation de la RAM   |
+| `du -sh /.../`     | Affiche  l'espace d'un repertoire   |
+| `tail -20 -f`     | Affiche en live les 20 dernière lignes    |
