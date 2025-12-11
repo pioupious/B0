@@ -58,10 +58,13 @@ Apache).
 
 _Verif l'état de Apache2_ :
 ```systemctl status apache2```
+
 _Si le service est arrêté _:
 ```systemctl start Apache2```
+
 _Verif l'état de Apache2_ :
 ```systemctl status apache2```
+
 _Si besoin, inspecter les lod du service_ :
 ```journalctl -xeu Apache2```
 
