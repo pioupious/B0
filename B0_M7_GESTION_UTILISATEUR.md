@@ -23,7 +23,7 @@
 adduser alf
 
 # Création d'un utilisateur avec useradd
-useradd -d /home/alf -m -g mongroup -G users,admin -u 101 alf
+useradd -d /home/alf -s /bin/bash -m -g mongroup -G users,admin -u 101 alf
 
 # Suppression d'un utilisateur avec deluser
 deluser alf
