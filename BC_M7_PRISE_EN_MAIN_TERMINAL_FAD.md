@@ -159,7 +159,7 @@ _if = input file | of = output file_
 
 ---
 
-- **Créer folder**
+- **Créer file**
 ```bash 
 touch /Téléchargement 
 ```
