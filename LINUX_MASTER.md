@@ -2,7 +2,7 @@
 
 ## Sommaire
 
-- [Naviguer sur Linux](#Naviguer sur Linux)
+- [Naviguer sur Linux](#Naviguer_sur_Linux)
 -
 -
 --
@@ -26,5 +26,5 @@
 
 
 
-## Naviguer sur Linux
+## Naviguer_sur_Linux
 
