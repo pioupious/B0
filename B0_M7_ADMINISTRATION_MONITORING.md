@@ -72,6 +72,27 @@ _Verif l'état de Apache2_ :
 _Si besoin, inspecter les lod du service_ :
 ```journalctl -xeu Apache2```
 
+# Sauvegardes
+
+La commande tar (pour Tape ARchive) est un outil puissant sous Linux pour créer, extraire et gérer des ar-
+chives de fichiers. Elle permet de regrouper plusieurs fichiers et répertoires en une seule archive, souvent
+compressée avec gzip (option -z) ou bzip2. Très utile pour les sauvegardes, elle offre des options comme -c
+(créer), -x (extraire), et -v (affichage détaillé)
+
+```
+**créer archives**
+ tar [options] [fichier-archive] [fichier ou répertoire à archiver]
+
+exemple :
+tar -czvf nom_archive.tar.gz /chemin/vers/répertoire_ou_fichier
+tar -cvf exemple.tar fichier1.txt fichier2.txt répertoire1
+
+**extraire archive**
+
+tar -C répertoire_destination/ -xvf exemple.tar
+
+
+``` 
 
 
 
