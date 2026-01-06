@@ -94,6 +94,30 @@ tar -C répertoire_destination/ -xvf exemple.tar
 
 ``` 
 
+# Automatisations taches CRON
 
+Une tâche cron est une tâche exécutée automatiquement dans un système d’exploitation. Afin d’exécuter ces tâches, le système fournit régulièrement des commandes. Il peut parfaitement s’agir d’une simple tâche, mais, en règle générale, on utilise plusieurs tâches complexes, donc plusieurs cron jobs.
+Le fichier système standard Crontab « crontab » est placé dans le répertoire /etc/cron.*/.
+
+
+
+```
+crontab -e
+------
+
+*     *     *     *     * Commande à exécuter
+-      -      -      -     -
+|     |     |     |     |
+|     |     |     |     +----- Jour de la semaine (0 - 7) (Dimanche correspond à 0 et 7)
+|     |     |     +------- Mois (1 - 12)
+|     |     +--------- Jour (1 - 31)
+|     +----------- Heure (0 - 23)
++------------- Minute (0 - 59)
+
+
+exemple :
+0 8,18 * * * /usr/bin/send_reminder_mail.sh
+
+``` 
 
 
