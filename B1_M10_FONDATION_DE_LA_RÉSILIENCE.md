@@ -39,7 +39,7 @@ Azure Blob, Google Cloud).
 
 **Typologie des Stockages**
 ----------------------------------------------------
-!!*https://urlr.me/YD-jHBVB* !!
+!!!!!  *https://urlr.me/YD-jHBVB*  !!!!!!
 
 Les différents mode de stockage de la donnée :les blocs, les fichiers et les objets. 
 
@@ -70,6 +70,61 @@ sion de la connaissance du SI.
 (modèle hybride).
 - TV5 qui perd une partie de la maîtrise de son SI en externalisant.
 
+**Redondance Physique**
+
+Duplication des composants critiques pour éviter un point de défaillance unique. Peut s’appliquer aux disques, serveurs, data centers.
+
+**Solutions :**
+- Clustering, Load Balancing, Réplication Synchrone/Asynchrone.
 
 
+**RAID**
+------------------------------------------------------------
+
+!!!!!   *https://www.youtube.com/watch?v=WqGeTOt6A0Q*   !!!!!
+
+En informatique, le mot **RAID** désigne les techniques permettant de constituer une unité de stockage à
+partir de plusieurs disques durs afin :
+- d'améliorer la tolérance aux pannes, la disponibilité ;
+- d’améliorer les performances ;
+- d’augmenter la capacité des partitions logiques.
+**RAID** est l’acronyme de Redundant Array of Independent (or inexpensive) Disks, ce qui signifie « chaîne re-
+dondante de disques indépendants »
+
+Il existe le **raid matériel**, géré par une carte contrôleur dédiée et le **raid logiciel** géré par l’OS.
+
+**Visualisation RAID Logiciel :**
+- Sur Linux :sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 /dev/sdX /dev/sdY
+- Sur Windows : Via Disk Management → Volume Miroir ou Stockage Parité (Storage Spaces).
+**Visualisation RAID Matériel :**
+- Accès au BIOS/UEFI du contrôleur RAID.
+- Outils : MegaRAID Storage Manager / HP SSA / Dell OpenManage.
+
+- **RAID 0 :** Il permet une performance en écriture et en lecture, une grande capacité de stockage,
+mais pas de tolérance aux pannes.On parle de "Striping " ou de"volume agrégé par bandes": les
+disques physiques sont associés pour ne faire qu'un seul disque logique.
+- **RAID 1 :** Il consiste en l'utilisation de n disques redondants (avec n ≥ 2), chaque disque de la grappe
+contenant à tout moment exactement les mêmes données, d'où l'utilisation du mot « miroir» (mirroring
+en anglais).
+- **RAID 5 :** striping + parité, tolérance 1 disque. Il combine la méthode du volume agrégé par bandes
+(striping) à une parité répartie. Les données sont entrelacées sur tous les disques de la pile, mais pour
+chaque bande de la pile,une unité de bande est réservée pour l’enregistrement de données de parité cal-
+culées à partir des autres unités.RAID 5 est devenu la référence pour les environnements de serveurs né-
+cessitant une capacité de tolérance aux pannes.
+- **RAID 6 :** tolérance aux pannes de 2 disques. Les grappes RAID 6 sont généralement plus lentes que
+les RAID 5, car il génère deux jeux d'informations de parité et les stocke sur deux disques différents mais
+la probabilité de perte de données est nettement plus faible.
+- **RAID 10 :** mirroring + striping (RAID 1 + RAID 0).
+- **RAID-Z :** version ZFS, tolérance d'erreurs intégrée. Le chiffre suivant le Z indique le nombre de disque
+de tolérance aux pannes. (Z, Z1, 2 et 3).
+
+
+**Choix du RAID :**
+- la sécurité : RAID 1 ou 1+0 et 5 offrent tousles deux un niveau de sécurité élevé ;
+- les performances : RAID 1 offre de meilleures performances que RAID 5 en lecture, mais
+souffre lors d'importantes opérations d'écriture.
+- le coût : le coût est directement lié à la capacité de stockage de la grappe.
+
+**Cas concret :** Un NAS domestique utilise RAID 1 pour assurer la disponibilité des données
+en cas de panne d’un disque.
 
