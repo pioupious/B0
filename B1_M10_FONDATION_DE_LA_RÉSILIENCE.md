@@ -128,3 +128,10 @@ souffre lors d'importantes opérations d'écriture.
 **Cas concret :** Un NAS domestique utilise RAID 1 pour assurer la disponibilité des données
 en cas de panne d’un disque.
 
+# CONCLUSION
+
+Dans une démarche de résilience, le stockage des données et la redondance sont des piliers fondamen-
+taux. La pérennité des services, la récupération après incident et la continuité d'activité dépendent directe-
+ment de la manière dont les données sont stockées, répliquées et sécurisées.
+Les incidents techniques, les cyberattaques, les erreurs humaines ou encore les catastrophes naturelles
+peuvent endommager des systèmes d'information. Une architecture bien p
