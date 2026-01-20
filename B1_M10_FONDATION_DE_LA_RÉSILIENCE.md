@@ -134,4 +134,6 @@ Dans une démarche de résilience, le stockage des données et la redondance son
 taux. La pérennité des services, la récupération après incident et la continuité d'activité dépendent directe-
 ment de la manière dont les données sont stockées, répliquées et sécurisées.
 Les incidents techniques, les cyberattaques, les erreurs humaines ou encore les catastrophes naturelles
-peuvent endommager des systèmes d'information. Une architecture bien p
+peuvent endommager des systèmes d'information. Une architecture bien pensée de stockage et de redon-
+dance limite ces risques et permet une reprise rapide, tout en garantissant l'intégrité des données.
+
